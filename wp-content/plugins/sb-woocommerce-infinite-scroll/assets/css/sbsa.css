@@ -1,0 +1,10 @@
+/* Animation style */
+/* version 1.0 */
+.sb-hide { display:none !important; }
+.sb-clear { clear:both; }
+.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale { z-index:1; }
+.sb-infinite-scroll-loader { text-align:center; clear:both; margin-bottom:5px; }
+.sb-infinite-scroll-loader img { margin-right:10px; display:inline-block; vertical-align:middle; }
+.sb-infinite-scroll-loader span { display:inline-block; vertical-align:middle; }
+.sb-infinite-scroll-load-more { text-align:center; }
+.sb-infinite-scroll-load-more a { cursor:pointer; padding:10px; border:1px solid; text-decoration:none; display:inline-block; margin-bottom:5px; }

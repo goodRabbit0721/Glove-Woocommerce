@@ -1,0 +1,63 @@
+/*====================================
+=            Contact Form            =
+====================================*/
+.contact-form{
+	&.design-2{
+		input[type="text"]{
+			width: 100%;
+		}
+	}
+}
+@media only screen and(max-width:768px){
+	.contact-form{
+		&.design-2{
+			input[type="text"]{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:480px){
+	.contact-form{
+		.pull-right{
+			width: 100%;
+			text-align: center;
+		}
+	}
+}
+
+.mc4wp-form input[type=email]{
+	color: #999;
+}
+
+.mc4wp-form input[type=email]:focus,
+.mc4wp-form input[type="submit"]:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.wpcf7-form{
+	.form-group{
+		display: inline-block;
+		width:100%;
+		p{
+			width:50%;
+			float: left;
+			margin-bottom: 0;
+			input{
+				width:100%;
+			}
+			&:first-child{
+				padding-right: 15px;
+			}
+			&:last-child{
+				padding-left: 15px;
+
+			}
+		}
+	}
+}
+
+/*-----  End of Contact Form  ------*/
+

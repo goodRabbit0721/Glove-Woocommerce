@@ -1,0 +1,1 @@
+<div class="woof_products_top_panel"></div>

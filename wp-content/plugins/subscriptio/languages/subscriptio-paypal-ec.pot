@@ -1,0 +1,513 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Subscriptio Paypal\n"
+"POT-Creation-Date: 2016-09-02 23:51+0300\n"
+"PO-Revision-Date: 2015-11-02 16:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../includes/classes/gateways/paypal-ec\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: subscriptio-paypal-ec-gateway.class.php:33
+msgid "PayPal Express Checkout by Subscriptio"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:34
+#, php-format
+msgid ""
+"Reference Transactions must be enabled on your PayPal account, learn more <a "
+"href=\"%s\">here</a>.<br>PayPal requires all communications to be secured "
+"with TLS 1.2, make sure that your server <a href=\"%s\">supports it</a>."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:35
+msgid "Go to PayPal"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:117
+msgid "Subscriptio PayPal payment gateway requires WooCommerce 2.1 or later."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:122
+msgid ""
+"Subscriptio PayPal payment gateway requires all API credentials to be set."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:292
+msgid "REQUEST: "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:294
+msgid "RESPONSE: "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:325
+#, php-format
+msgid "Processing order started (order id: %s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:333
+msgid "Cancelling - order not found"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:334
+msgid ""
+"Order not found. We have not charged you for this order. Please try again."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:341
+msgid "Renewal order detected - trying to auto-process"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:346
+#, php-format
+msgid ""
+"Manual payment for renewal order successfully auto-completed (order id: %s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:357
+msgid "Cancelling - the cart is empty"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:358
+msgid "The cart is empty - we have not charged you for this order."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:388
+msgid "Express Checkout is set, redirecting to PayPal"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:404
+msgid "Error connecting to PayPal (Set Express Checkout): "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:425
+msgid "PayPal Set Express Checkout Request failed with message: "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:426
+#: subscriptio-paypal-ec-gateway.class.php:835
+msgid "Unknown error (check log for more details)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:449
+msgid "Enable/Disable"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:451
+msgid "Enable PayPal Express Checkout"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:455
+msgid "Sandbox Mode"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:457
+msgid "Enable PayPal Sandbox mode"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:461
+msgid "Enable Log"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:463
+msgid "Enable logging of PayPal operations"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:467
+msgid "Title"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:469
+msgid "The title which the user sees during checkout."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:470
+msgid "PayPal"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:473
+msgid "Description"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:475
+msgid "The description which the user sees during checkout."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:476
+msgid "Pay Securely via PayPal"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:479
+msgid "Address Override"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:481
+msgid "Send address data entered on checkout page to PayPal."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:485
+msgid "API Credentials"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:487
+#, php-format
+msgid ""
+"Refer to <a href=\"%s\">this knowledge base article</a> for some guidance on "
+"how to acquire your API credentials."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:490
+msgid "Sandbox API Username"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:492
+msgid "Sandbox API Username from your PayPal Account."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:496
+msgid "Sandbox API Password"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:498
+msgid "Sandbox API Password from your PayPal Account."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:502
+msgid "Sandbox API Signature"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:504
+msgid "Sandbox API Signature from your PayPal Account."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:508
+msgid "API Username"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:510
+msgid "API Username from your PayPal Account."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:514
+msgid "API Password"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:516
+msgid "API Password from your PayPal Account."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:520
+msgid "API Signature"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:522
+msgid "API Signature from your PayPal Account."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:526
+msgid "Branding"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:530
+msgid "Enable Branding Styles"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:532
+msgid "Enable Branding Style changes for PayPal pages."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:536
+msgid "Brand Name"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:539
+msgid "Label that overrides the business name."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:543
+msgid "Page Style"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:546
+msgid ""
+"Name of the Custom Payment Page Style for payment pages - it is the same "
+"name as the Page Style Name you chose to add or edit the page style in your "
+"PayPal Account profile. "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:550
+msgid "Top Image URL"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:553
+msgid ""
+"URL for the image you want to appear at the top left of the payment page. "
+"The image has a maximum size of 750 pixels wide by 90 pixels high. PayPal "
+"requires that you provide an image that is stored on a secure (https) "
+"server. If you do not specify an image, the business name displays."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:557
+msgid "Logo Image URL"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:560
+msgid ""
+"URL to your logo image. Use a valid graphics format, such as .gif, .jpg, or ."
+"png. Limit the image to 190 pixels wide by 60 pixels high."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:564
+msgid "Payment Page Background"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:567
+msgid ""
+"Sets the background color for the payment page. By default, the color is "
+"white (6-character HTML hexadecimal ASCII color code)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:582
+msgid "PayPal Express Checkout"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:680
+msgid "Starting Do Express Checkout process"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:697
+msgid ""
+"Unfortunately, your session for this payment has expired. Please try again."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:698
+msgid "Cancelling - session expired"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:714
+msgid "Operation cancelled - current token was already used to make a payment."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:715
+msgid "Cancelling - order already paid"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:753
+msgid "Error connecting to PayPal (Do Express Checkout): "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:776
+#, php-format
+msgid ""
+"PayPal Express Checkout payment operation completed (payment status: %s, "
+"transaction id: %s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:777
+#, php-format
+msgid "Payment operation completed (payment status: %s, transaction id: %s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:791
+#: subscriptio-paypal-ec-subscriptions.class.php:171
+#, php-format
+msgid " Pending reason: %s (%s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:834
+msgid "PayPal Express Checkout payment failed with message: "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:864
+msgid "Starting process of handling trial subscription from order #"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:892
+msgid "PayPal details saved for future use."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:893
+msgid "Billing agreement id saved"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:897
+msgid "Error: no billing agreement id found"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:961
+msgid "Processing refund for order #"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1006
+#, php-format
+msgid "%s of PayPal charge %s refunded."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1007
+msgid "Refund successfull"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1013
+msgid "PayPal refund failed."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1014
+msgid "Refund failed"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1186
+msgid "No pending reason."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1187
+msgid ""
+"The payment is pending because your buyer did not include a confirmed "
+"shipping address and your Payment Receiving Preferences is set such that you "
+"want to manually accept or deny each of these payments. To change your "
+"preference, go to the Preferences section of your Profile."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1188
+msgid ""
+"The payment is pending because it has been authorized but not settled. You "
+"must capture the funds first."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1189
+msgid ""
+"The payment is pending because it was made by an eCheck that has not yet "
+"cleared."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1190
+msgid ""
+"The payment is pending because you hold a non-U.S. account and do not have a "
+"withdrawal mechanism. You must manually accept or deny this payment from "
+"your Account Overview."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1191
+msgid ""
+"You do not have a balance in the currency sent, and you do not have your "
+"Payment Receiving Preferences set to automatically convert and accept this "
+"payment. You must manually accept or deny this payment."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1192
+msgid ""
+"The payment is pending because it is part of an order that has been "
+"authorized but not settled."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1193
+msgid "The payment is pending while it is being reviewed by PayPal for risk."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1194
+msgid ""
+"The payment is pending while we make sure it meets regulatory requirements. "
+"You will be contacted again in 24-72 hours with the outcome of the review."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1195
+msgid ""
+"The payment is pending because it was made to an email address that is not "
+"yet registered or confirmed."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1196
+msgid ""
+"The payment is pending because you are not yet verified. You must verify "
+"your account before you can accept this payment."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1197
+msgid ""
+"The payment is pending for a reason other than those listed above. For more "
+"information, contact PayPal customer service."
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1259
+msgid "Decoded IPN message: "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1277
+#, php-format
+msgid "PayPal Express Checkout payment completed via IPN (transaction id: %s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1278
+msgid "Payment completed via IPN"
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1323
+msgid "Incoming IPN message: "
+msgstr ""
+
+#: subscriptio-paypal-ec-gateway.class.php:1325
+msgid "IPN validation result: "
+msgstr ""
+
+#: subscriptio-paypal-ec-payment-request.class.php:257
+msgid "Total Discount"
+msgstr ""
+
+#: subscriptio-paypal-ec-payment-request.class.php:279
+msgid "Cart Discount"
+msgstr ""
+
+#: subscriptio-paypal-ec-payment-request.class.php:296
+msgid "Order Discount"
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:140
+msgid "Error connecting to PayPal (Subscription payment): "
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:155
+msgid "Automatic"
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:155
+msgid "Manual"
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:156
+#, php-format
+msgid ""
+"%s PayPal Express Checkout subscription payment operation completed (payment "
+"status: %s, transaction id: %s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:157
+#, php-format
+msgid ""
+"%s subscription payment operation completed (payment status: %s, transaction "
+"id: %s)"
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:202
+msgid "Subscription payment request failed with error: "
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:206
+msgid "PayPal Express Checkout subscription payment failed with message: "
+msgstr ""
+
+#: subscriptio-paypal-ec-subscriptions.class.php:231
+msgid ""
+"Automatic subscription payment failed: billing agreement ID not found "
+"(PayPal)"
+msgstr ""

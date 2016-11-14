@@ -1,0 +1,65 @@
+/*==================================
+=            Blank Page            =
+==================================*/
+body.page-template-blank{
+	header,
+	.header-wrapper{
+		display: none;
+	}
+	.template-container{
+		width: 100%;
+	}
+	.page-wrapper{
+		display: table;
+		width: 100%;
+		padding-top: 0 !important;
+	}
+	.container.blank-page{
+		width: 100%;
+		display: table-cell;
+		vertical-align: middle;
+		.container{
+			width: 100%;
+		}
+		.ult_countdown{
+			float: none;
+			display: inline-block;
+		}
+		span.ult_countdown-section{
+			display: inline-block;
+			margin: 0 30px;
+			position: relative;
+			&:after,
+			&:before{
+				content:"";
+				position: absolute;
+				display: block;
+			}
+			&:last-child{
+				&:before,
+				&:after{
+					display: none;
+				}
+			}
+		}
+		.form.mc4wp-form{
+			width: 440px;
+			margin: 0 auto;
+			input[type="email"]{
+				margin-top: 5px;
+				margin-bottom: 20px;
+			}
+			p{
+				margin-bottom: 0 !important;
+			}
+		}
+	}
+	footer,
+	.footer-bottom{
+		display: none !important;
+	}
+}
+
+
+/*-----  End of Blank Page  ------*/
+

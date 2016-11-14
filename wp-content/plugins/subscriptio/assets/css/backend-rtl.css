@@ -1,0 +1,65 @@
+/**
+ * Subscriptio Plugin Backend RTL Styles
+ */
+
+.subscriptio_settings_container {
+    float: right;
+}
+.subscriptio_settings_container th {
+    padding: 15px 10px 5px 0;
+}
+.subscriptio_settings_container h2,
+.subscriptio_settings_container h3 {
+    padding: 10px 15px 10px 0;
+}
+.subscriptio_settings_container .form-table {
+    margin: 10px 25px 10px 0;
+}
+.subscriptio_settings_container .submit {
+    padding: 15px 15px 10px 0;
+}
+
+table.wp-list-table .column-subscriptio {
+    text-align: right!important;
+}
+
+.subscriptio_subscription_items_list thead th {
+    text-align: right;
+}
+.subscriptio_subscription_items_list tbody td {
+    text-align: right;
+}
+.subscriptio_subscription_items_list tfoot td {
+    text-align: right;
+}
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_quantity,
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_total,
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_tax {
+    text-align: right;
+}
+
+.subscription_data_content {
+    float: right;
+    padding: 0 0 0 2%;
+}
+.subscriptio_subscription_delete {
+    float: right;
+}
+.subscription_actions_footer button {
+    float: left;
+}
+
+#subscription_data .subscription_data_content .form-field {
+    float: right;
+}
+#subscription_data .subscription_data_content ._shipping_last_name_field,
+#subscription_data .subscription_data_content ._shipping_address_2_field,
+#subscription_data .subscription_data_content ._shipping_postcode_field,
+#subscription_data .subscription_data_content ._shipping_state_field {
+    float: left;
+}
+
+#subscription_data .subscriptio_save_address,
+#subscription_data #subscriptio_cancel_address_edit {
+    float: right;
+}

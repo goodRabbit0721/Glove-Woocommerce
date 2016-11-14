@@ -1,0 +1,6 @@
+{
+  "require":{
+    "opauth/opauth": "*",
+    "opauth/facebook": "*"
+  }
+}

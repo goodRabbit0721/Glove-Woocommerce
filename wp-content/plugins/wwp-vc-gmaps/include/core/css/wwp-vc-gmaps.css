@@ -1,0 +1,59 @@
+.lock-button-gmaps {
+    -moz-user-select: none;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+    color: #666666;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+}
+.lock-button-gmaps i {
+    padding-top: 7px;
+}
+.lock-button-gmaps:hover {
+    text-shadow: 0 1px 2px #f9f9f9;
+    color: #000000;
+}
+
+.marker-location-rounded {
+    background: white none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    border-radius: 8px;
+}
+.marker-location-square {
+    background: white none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+.marker-location-wrapper {
+    height: auto;
+    line-height: inherit;
+    vertical-align: initial;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+    clear: both;
+    padding: 15px;
+}
+.marker-location-link {
+    text-decoration: none !important;
+    box-shadow: none !important;
+    display: block;
+    line-height: 1.3em;
+}
+.marker-location-image img {
+    height: auto;
+}
+.marker-location-image {
+    display: table-cell;
+    vertical-align: middle;
+    width: 30px;
+}
+.marker-location-name {
+    display: table-cell;
+    padding-left: 15px;
+    vertical-align: middle;
+}

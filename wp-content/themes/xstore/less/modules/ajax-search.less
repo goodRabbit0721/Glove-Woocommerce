@@ -1,0 +1,131 @@
+/*===================================
+=            AJAX Search            =
+===================================*/
+
+.ajax-results-wrapper {
+	position: relative;
+	top:100%;
+	left: 0;
+	right: 0;
+}
+
+.ajax-results {
+	background: white;
+	text-align: left;
+	overflow: hidden;
+	background: #fff;
+	border-top:1px solid #e6e6e6;
+}
+
+.product-ajax-list {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 50%;
+	margin-bottom: 0;
+
+	li {
+		padding: 1.43em;
+		list-style-type: none;
+		float: left;
+		display: block;
+		width: 50%;
+		border-bottom: 1px solid @borderColor;
+		border-right: 1px solid @borderColor;
+	}
+
+	.product-list-image {
+		float: left;
+		display: block;
+	}
+
+	img {
+		max-width: 5.0rem;
+		margin-right: 20px;
+	}
+
+	.product-title {
+		display: block;
+		font-size: 0.9rem !important;
+		line-height: 1.5;
+		margin-bottom: 0;
+		a{
+			text-transform: uppercase;
+			font-weight:bold;
+		}
+	}
+}
+.product-ajax-list li{
+	min-height: 134px;
+}
+.posts-ajax-list {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 50%;
+	margin-bottom: 0;
+
+	li {
+		padding: 1.43em;
+		list-style-type: none;
+		float: left;
+		display: block;
+		width: 50%;
+		min-height: 134px;
+		border-bottom: 1px solid @borderColor;
+		border-right: 1px solid @borderColor;
+	}
+
+	.post-list-image {
+		float: left;
+		display: block;
+	}
+
+	img {
+		max-width: 5.0rem;
+		margin-right: 20px;
+	}
+
+	h4 {
+		display: block;
+		font-size: 1rem;
+	}
+
+	.post-date {
+
+	}
+}
+
+.search-results-title {
+	padding: 1.43em;
+	
+	border-bottom: 1px solid @borderColor;
+	border-right: 1px solid @borderColor;
+	font-size: 1.14rem;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-weight: @bolder;
+	overflow: hidden;
+	a {
+		float: right;
+		font-weight: normal;
+		text-transform: uppercase;
+		font-size:0.9rem;
+		font-weight:bold;
+	}
+}
+
+.header-search.act-default{
+	.ajax-results-wrapper{
+		position: absolute;
+		z-index: 10;
+	}
+}
+
+
+@media only screen and (max-width:991px){
+	.ajax-results-wrapper{
+		display: none !important;
+	}
+}
+/*=====  End of AJAX Search  ======*/

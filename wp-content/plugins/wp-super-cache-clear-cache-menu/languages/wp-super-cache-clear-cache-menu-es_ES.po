@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSuperCache Clear all cached files from menu\n"
+"POT-Creation-Date: 2014-03-19 11:44+0100\n"
+"PO-Revision-Date: 2014-03-19 11:45+0100\n"
+"Last-Translator: Ramon <marketing@apasionados.es>\n"
+"Language-Team: Apasionados.es <info@apasionados.es>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-super-cache-clear-cache-menu.php:13
+msgid "WP Super Cache - Clear all cache"
+msgstr "WP Super Cache - Vaciar caché"
+
+#: ../wp-super-cache-clear-cache-menu.php:13
+msgid ""
+"Clear all cached files of the WP Super Cache plugin directly from the admin "
+"menu (option only available to super admins)."
+msgstr ""
+"Vaciar todos los archivos en la caché de WP Super Cache plugin directamente "
+"desde el menú de administración (opción solamente disponible para super "
+"admins)."
+
+#: ../wp-super-cache-clear-cache-menu.php:34
+msgid "Clear all cached files"
+msgstr "Vaciar caché (todo)"
+
+#: ../wp-super-cache-clear-cache-menu.php:35
+msgid "Clear all cached files of WP Super Cache"
+msgstr "Vaciar todos los archivos de la caché de WP Super Cache"
+
+#~ msgid "Delete completly Cache"
+#~ msgstr "Borrar caché (todo)"

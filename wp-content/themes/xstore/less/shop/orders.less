@@ -1,0 +1,91 @@
+/*===============================================
+=            Styles for order tables            =
+===============================================*/
+
+.my_account_orders {
+	margin-bottom: 5.0em;
+	td {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 0.9rem;
+		color: @darkColor;
+		vertical-align: middle;
+		.button{
+			margin-left: 5px;
+			margin-bottom: 3px;
+			margin-top: 3px;
+			&:first-of-type{
+				margin-left: 0;
+			}
+		}
+	}
+
+	.order-actions {
+		text-align: right;
+	}
+	.view {
+		.btn-black();
+	}
+}
+
+/*=====  End of Styles for order tables  ======*/
+
+
+/*==================================
+=            Order page            =
+==================================*/
+
+.order-info {
+	margin-bottom: 3em;
+	mark {
+		padding: .2em .7em;
+		margin: 0 .5em;
+		background-color: #dbf0c0;
+		color: @darkColor;
+	}
+}
+
+.order_details {
+	margin-bottom: 4em;
+	.product-name {
+		width: 70%;
+	}
+	th,
+	td { 
+		text-transform: uppercase;
+		padding-top:2em;
+		padding-bottom: 2em;
+		font-weight: bold;
+		&:last-child {
+			text-align: right;
+			color: @darkColor;
+		}
+	}
+	tfoot {
+		tr {
+			&:last-child {
+				.amount {
+					font-size: 1.71rem;
+				}
+			}
+		}
+	}
+}
+
+.shop_table.customer_details {
+	margin-bottom: 4em;
+	border-top: 2px solid @darkColor;
+	th,
+	td { 
+		text-transform: uppercase;
+		padding-top:2em;
+		padding-bottom: 2em;
+		font-weight: bold;
+		&:last-child {
+			text-align: right;
+			color: @darkColor;
+		}
+	}
+}
+
+/*=====  End of Order page  ======*/

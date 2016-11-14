@@ -1,0 +1,74 @@
+/*===================================
+=          Xstore Header            =
+===================================*/
+
+.header-xstore {
+	.header-logo {
+		width:25%;
+	}
+
+	.menu-wrapper {
+		width: 66%;
+		&.menu-align-left{
+			padding-left: 30px;
+		}
+	}
+
+	.navbar-header {
+		width:25% !important;
+	}
+}
+
+.global-header-xstore{
+	.fixed-header .menu-wrapper{
+		width: 66%;
+	}
+	&:not(.et-header-full-width) .fixed-header{
+		.navbar-header{
+			padding-right: 0;
+		}
+	}
+}
+
+@media only screen and (max-width:1200px){
+	.header-xstore .header-logo{
+		width: auto;
+	}
+	.header-xstore .menu-wrapper{
+		width: 60%;
+	}
+	.global-header-xstore{
+		.fixed-header .menu-wrapper{
+			width: 60%;
+		}
+	}
+}
+
+@media only screen and (max-width:992px){
+	.header-xstore {
+		.header-search {
+			padding: 0 1em 0 0;
+		}
+		.et-wishlist-widget {
+			padding: 0 1em 0 0;
+		}
+	}
+	.global-header-xstore{
+		.fixed-header .navbar-header{
+			padding-right: 1.5em !important;
+		}
+	}
+}
+
+@media only screen and (max-width:480px){
+	.global-header-xstore .page-heading{
+		padding-top: 11em;
+	}
+	.global-header-xstore.et-header-not-overlap .page-heading{
+		padding-top: 5.71em;
+		&.bc-size-small{
+			padding-top: 25px;
+		}
+
+	}
+}

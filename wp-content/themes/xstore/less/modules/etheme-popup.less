@@ -1,0 +1,92 @@
+/*====================================
+=            Etheme Popup            =
+====================================*/
+#etheme-popup{
+	margin: 0 auto;
+	background-color: transparent;
+	padding: 60px;
+	max-width: 100% !important;
+	position: relative;
+	p{
+		margin-bottom: 0;
+	}
+	.checkbox-label{
+		position: absolute;
+		left: 15px;
+		label{
+			color: #b3b3b3;
+		}
+		bottom: 10px;
+
+		input{
+			position: relative;
+		}
+	}
+	h1{
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+	.mc4wp-form .et-mailchimp{
+		margin-top: 20px;
+		input[type="email"]{
+			height: 40px;
+			width:100%;
+		}
+		input[type="submit"]{
+			height: 40px;
+		}
+		label{
+			display: none;
+		}
+	}
+	.vc_sep_color_white{
+		h4{
+			color: #fff;
+		}
+	}
+	.mfp-close{
+		
+		transition: all 0.2s linear;
+		backface-visibility: hidden;
+		font-size: 0;
+		&:before{
+			font-family: 'xstore-icons';
+			display: inline-block;
+			font-size: 24px;
+			color: #9b9b9b;
+			content: "\e90a";
+			position: relative;
+			left: 0.5px;
+			line-height: 44px;
+			.transition();
+		}
+		&:hover{
+
+		}
+	}
+}
+
+@media only screen and (max-width:768px){
+	#etheme-popup{
+		transform: scale(0.7);
+		height: auto !important;
+		background-size: cover;
+		.checkbox-label{
+			position: static;
+		}
+	}
+}
+@media only screen and (max-width:480px){
+	#etheme-popup{
+		padding: 15px;
+		transform: scale(0.8);
+	}
+	#etheme-popup > *{
+		transform: scale(0.9);
+	}
+
+}
+
+
+/*-----  End of Etheme Popup  ------*/
+

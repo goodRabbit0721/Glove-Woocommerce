@@ -1,0 +1,76 @@
+/*====================================
+=            Base Sidebar            =
+====================================*/
+.sticky-sidebar{
+	position: static;
+}
+.sidebar-widget,
+.widget-container{
+
+	display: inline-block;
+	width: 100%;
+	li{
+		list-style: none;
+		width: 100%;
+	}
+}
+
+.sidebar-widget {
+	margin-bottom: 4.29em;
+	li {
+		a {
+			display: inline-block;
+			color: lighten(@darkColor, 15%);
+			padding: 0.36em 0;
+		}
+	}
+}
+
+.widget_recent_entries li{
+	list-style: none;
+}
+
+.sidebar-widget {
+	.widget-title {
+		margin-bottom: 1.07em;
+		padding-bottom: 1.07em;
+		border-bottom: 1px solid @borderColor;
+	}
+}
+
+
+.widget-title {
+	font-size: 1.14rem;
+	text-transform: uppercase;
+	color: @darkColor;
+	font-weight: @bolder;
+	letter-spacing: 1px;
+	margin-bottom: 1.56em;
+}
+
+.widget_text{
+	ol,ul{
+		padding-left: 20px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		li{
+			margin-bottom: 0.5em;
+			list-style: inherit;
+			line-height: 1.8;
+		}
+	}
+}
+.etheme_widget_recent_comments{
+	li{
+		border-bottom:1px solid @borderColor;
+		padding: 10px 0;
+		>a{
+			padding-top: 0;
+		}
+		&:first-child{
+			padding-top: 0;
+		}
+	}
+}
+/*-----  End of Base Sidebar  ------*/
+

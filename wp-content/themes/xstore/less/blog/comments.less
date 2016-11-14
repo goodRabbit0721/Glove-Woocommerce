@@ -1,0 +1,263 @@
+/*=======================================
+=            Comments styles            =
+=======================================*/
+
+.comments {
+	.title-alt {
+		padding: 2em 0;
+		border-top: 1px solid @borderColor;
+		border-bottom: 1px solid @borderColor;
+		margin-bottom: 4em;
+		font-size: 1rem;
+		text-transform: uppercase;
+	}
+}
+
+.comment-reply-title {
+	.block-title();
+}
+
+.comments-list {
+	padding-left: 0!important;
+	.comment {
+		margin-bottom: 2em;
+		padding-bottom: 2em;
+		border-bottom: 1px solid @borderColor;
+		img {
+			margin-right: 1.8em;
+		}
+		&:last-child {
+			border-bottom: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+	.media-heading {
+		font-weight: normal;
+		font-size: 1.4rem;
+		margin-bottom: 0.4em;
+	}
+	.meta-comm {
+		font-size: 1.14rem;
+		margin-bottom: 1em;
+		font-weight: @light;
+	}
+	p {
+		font-size: 1.14rem;
+		margin-bottom: 1em;
+		font-weight: @light;
+	}
+	.comment-reply-link {
+		font-size: 1.14rem;
+	}
+	.children {
+		padding-left: 6em;
+		margin-top: 2em;
+		padding-top: 2em;
+		border-top: 1px solid @borderColor;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+.comment-respond {
+	label {
+		display: none;
+	}
+	textarea {
+		height: 200px;
+
+	}
+
+	.comment-form-email,
+	.comment-form-url,
+	.comment-form-author {
+		width: 33.3%;
+		display: block;
+		float: left;
+		margin-bottom: 2.13em;
+	}
+	.comment-form-email {
+		padding: 0 0.71em;
+	}
+	.comment-form-url {
+		padding: 0 0 0 1.42em;
+	}
+	.comment-form-author {
+		padding: 0 1.42em 0 0;
+	}
+}
+
+.form-submit {
+	input[type="submit"] {
+		.btn-active();
+	}
+}
+
+/**
+ *
+ * Reviews form on woocommerce product
+ *
+ */
+
+#reviews {
+	#comments {
+		> h2 {
+			text-align: center;
+			.block-title();
+		}
+	}
+	.comment-reply-title {
+		text-align: center;
+	}
+}
+
+.commentlist {
+	padding-left:0!important;
+	li {
+		list-style-type: none;
+		padding-bottom: 2.14em;
+		margin-bottom: 2.14em;
+		border-bottom: 1px solid @borderColor;
+		li {
+			margin-left: 2.14em;
+		}
+	}
+
+	.avatar {
+		float: left;
+		margin-top: 12px;
+	}
+
+	.comment-text {
+		padding-left: 110px;
+		p{
+			word-break:break-all;
+		}
+	}
+
+	.star-rating {
+		float: right;
+		margin-top: 5px;
+		span{
+			height: auto;
+		}
+	}
+
+	.meta {
+		font-size: 0;
+		margin-bottom: 1.43rem;
+		strong {
+			display: block;
+			font-size: 1.4rem;
+			color: black;
+		}
+		time {
+			font-size: 1.14rem;
+		}
+	}
+}
+
+#review_form {
+	.comment-respond {
+		label {
+			display: block;
+			font-weight: bold;
+			color:#000;
+			text-transform: uppercase;
+		}
+		.comment-form-author,
+		.comment-form-email {
+			width: 100%;
+			display: block;
+			padding: 0;
+			input {
+				width: 100%;
+			}
+		}
+	}
+
+	.stars {
+		a {
+			font-size: 0;
+			margin-right: 15px;
+			&:before {
+				font-size: 1rem;
+				font-family: 'FontAwesome';
+				content: '\f005';
+				color: lighten(@mainColor, 30%);
+				letter-spacing: 2px;
+				.transition();
+			}
+			&:hover,
+			&.active {
+				&:before {
+					color: #000;
+				}
+			}
+			&.star-2 {
+				&:before {
+					content: '\f005 \f005';
+				}
+			}
+			&.star-3 {
+				&:before {
+					content: '\f005 \f005 \f005';
+				}
+			}
+			&.star-4 {
+				&:before {
+					content: '\f005 \f005 \f005 \f005';
+				}
+			}
+			&.star-5 {
+				&:before {
+					content: '\f005 \f005 \f005 \f005 \f005';
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.comments-list .children{
+		padding-left: 3em;
+
+	}
+}
+
+@media only screen and (min-width:992px){
+	#reviews {
+		overflow: hidden;
+		#comments {
+			float: right;
+			width: 58%;
+		}
+
+		#review_form_wrapper {
+			float: left;
+			width: 38%;
+		}
+	}
+	.tabs-after_image{
+		#reviews #comments,
+		#reviews #review_form_wrapper{
+			width: 100%;
+		}
+	}
+}
+
+
+@media only screen and (max-width:768px){
+	.comment-respond{
+		.comment-form-email,
+		.comment-form-url,
+		.comment-form-author{
+			width:100%;
+			margin-left: 0;
+			padding: 0;
+		}
+	}
+}
+/*=====  End of Comments styles  ======*/

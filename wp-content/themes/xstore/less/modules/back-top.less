@@ -1,0 +1,76 @@
+/*===================================
+=            Back to Top            =
+===================================*/
+.back-top {
+	position: fixed;
+	z-index: 999;
+	visibility: hidden;
+	opacity: 0;
+	width: 50px;
+	height: 50px;
+	right: 30px;
+	bottom: 45px;
+	background-color: #f2f2f2;
+	cursor: pointer;
+	.transition();
+	transform:translateY(20px);
+	a {
+		display: block;
+		&:focus {
+			outline: none;
+			text-decoration: none;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	span {
+		display: block;
+		text-align: center;
+		line-height: 46px;
+		&:before{
+			content: '\f106';
+			font-family: 'FontAwesome';
+			font-size: 30px;
+			color: #222;
+			.transition();
+		}
+
+	}
+	&.bounceIn{
+		visibility: visible;
+		opacity: 1;
+		transform:translateY(0);
+	}
+	&:hover{
+		span{
+			animation: animArrow 1s infinite;
+			&:before{
+				color: rgba(255, 255, 255, 1);
+			}
+		}
+	}
+}
+@keyframes animArrow {
+	0%{
+		transform:translateY(0);
+	}
+	50%{
+		transform: translateY(-5px);
+	}
+	100%{
+		transform:translateY(0);
+	}
+}
+
+
+@media only screen and (max-width:480px){
+	.back-top{
+		right: 15px;
+		bottom: 15px;
+		display: none;
+	}
+}
+
+/*-----  End of Back to Top  ------*/
+

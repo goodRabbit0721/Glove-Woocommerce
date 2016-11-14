@@ -1,0 +1,4 @@
+title="Hierarchy drop-down"
+version="1.0"
+modificated="08-12-2015"
+description="Hierarchical selectors. Example of using: custom taxonomy 'Location', where parent is сountry, сhild is city, sub-child is district"

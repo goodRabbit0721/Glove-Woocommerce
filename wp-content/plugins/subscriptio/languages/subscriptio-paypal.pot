@@ -1,0 +1,386 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Subscriptio Paypal\n"
+"POT-Creation-Date: 2016-09-02 23:51+0300\n"
+"PO-Revision-Date: 2015-11-02 16:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../includes/classes/gateways/paypal\n"
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:36
+msgid "PayPal by Subscriptio (deprecated)"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:37
+#, php-format
+msgid ""
+"PayPal by Subscriptio is a PayPal payment gateway extension that enables "
+"automatic recurring payments for subscription products. It uses <a href=\"%s"
+"\">PayPal Adaptive Payments API</a> to handle payment preapprovals and "
+"recurring billing."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:104
+msgid "Subscriptio PayPal payment gateway requires WooCommerce 2.1 or later."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:109
+msgid ""
+"Subscriptio PayPal payment gateway requires all API credentials to be set."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:238
+msgid "Error connecting to PayPal: "
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:275
+#, php-format
+msgid "Recurring payment preapproval for subscription payments on %s."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:390
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-subscriptions.class.php:77
+msgid "Order #"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:422
+msgid "PayPal currency conversion request failed. "
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:498
+msgid "Order not found."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:498
+msgid "We have not charged you for this order. Please try again."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:552
+msgid "Unknown error."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:553
+msgid "PayPal preapproval request failed. "
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:585
+msgid "PayPal payment request failed. "
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:648
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:526
+msgid "Payment failed (PayPal). Error message: "
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:675
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:555
+#, php-format
+msgid "PayPal payment completed (paykey: %s, transaction id(s): %s)"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:720
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:722
+msgid "Enable PayPal Adaptive Payments"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:726
+msgid "Sandbox Mode"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:728
+msgid "Enable PayPal Sandbox mode"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:732
+msgid "PayPal Email"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:734
+msgid "PayPal Email of receiver."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:739
+msgid "Title"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:741
+msgid "The title which the user sees during checkout."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:742
+msgid "PayPal"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:745
+msgid "Description"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:747
+msgid "The description which the user sees during checkout."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:748
+msgid "Pay Securely via PayPal"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:751
+msgid "API Credentials"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:753
+#, php-format
+msgid ""
+"Refer to <a href=\"%s\">this knowledge base article</a> for some guidance on "
+"how to acquire your API credentials."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:756
+msgid "Sandbox API Username"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:758
+msgid "Sandbox API Username from your PayPal Account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:762
+msgid "Sandbox API Password"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:764
+msgid "Sandbox API Password from your PayPal Account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:768
+msgid "Sandbox API Signature"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:770
+msgid "Sandbox API Signature from your PayPal Account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:774
+msgid "Sandbox App ID"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:776
+msgid "Sandbox App ID."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:780
+msgid "API Username"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:782
+msgid "API Username from your PayPal Account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:786
+msgid "API Password"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:788
+msgid "API Password from your PayPal Account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:792
+msgid "API Signature"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:794
+msgid "API Signature from your PayPal Account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:798
+msgid "App ID"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:800
+msgid "App ID."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:804
+msgid "Preapproval Settings"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:806
+msgid ""
+"The following settings control how recurring payments will work on your "
+"online store."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:809
+msgid "Force Automatic Payments"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:811
+msgid "Enable Forcing of Automatic Payments"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:812
+msgid ""
+"Force automatic subscription payments (hides the optional preapproval "
+"checkbox)"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:816
+msgid "When Payment Agreement is Cancelled"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:818
+msgid ""
+"Choose what action you want to perform when user cancels the preapproval "
+"from PayPal account settings."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:821
+msgid "Revert to manual subscription payments"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:822
+msgid "Cancel corresponding subscription immediately"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:826
+msgid "Max Preapproval Term"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:828
+msgid ""
+"This controls API property endingDate. Enter custom number of months to "
+"change default of 12 months. Enter zero to not send this property to PayPal "
+"at all. Contact PayPal in advance to get this limitation lifted for your "
+"account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:833
+msgid "Max All Payments Total"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:835
+msgid ""
+"This controls API property maxTotalAmountOfAllPayments. Enter custom decimal "
+"number to change default of $2000 USD (or equivalent in other currency). "
+"Enter zero to not send this property to PayPal at all. Contact PayPal in "
+"advance to get this limitation lifted for your account."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:840
+msgid "Expiration Override"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:842
+msgid "Enable Expiration Override"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:843
+msgid ""
+"For example, if a subscription product with monthly payments of $10 is set "
+"to expire after 24 months, this extension would send 24 months as max term "
+"and $240 as max total."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:847
+msgid "Additional Parameters"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:849
+msgid "Include more parameters in preapproval call."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:850
+msgid ""
+"These are parameters that will be included: maxAmountPerPayment, "
+"maxAmountPerPayment, maxNumberOfPaymentsPerPeriod. This is experimental and "
+"only needed if PayPal requires it on your site."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:868
+msgid "Preapprove all future payments for subscriptions in this order."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:880
+msgid "PayPal Adaptive Payments"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:928
+msgid "PayPal refund failed."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:934
+#, php-format
+msgid "%s of PayPal charge %s refunded."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-gateway.class.php:959
+msgid "Unknown payment error."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:108
+#, php-format
+msgid "PayPal payment completed via IPN (paykey: %s, transaction id(s): %s)"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:113
+#, php-format
+msgid "Payment pending: %s"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:117
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:121
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:125
+#, php-format
+msgid "Payment %s via IPN."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:169
+msgid "Preapproval request and payment failed (IPN)."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:457
+msgid "Preapproval cancelled by user (IPN)."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:489
+msgid "Subscription is already cancelled."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-ipnhandler.class.php:497
+msgid "User cancelled preapproval agreement - subscription cancelled as well."
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-subscriptions.class.php:58
+msgid ""
+"Automatic subscription payment failed: preapproval key not found (PayPal)"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-subscriptions.class.php:77
+msgid "Subscription #"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-subscriptions.class.php:106
+msgid "Automatic subscription payment (PayPal) failed with message: "
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-subscriptions.class.php:125
+#, php-format
+msgid "PayPal automatic payment completed (paykey: %s, transaction id(s): %s)"
+msgstr ""
+
+#: ../includes/classes/gateways/paypal/subscriptio-paypal-subscriptions.class.php:131
+msgid "Automatic subscription payment failed with unknown message: "
+msgstr ""

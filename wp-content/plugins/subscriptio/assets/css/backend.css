@@ -1,0 +1,52 @@
+/**
+ * Subscriptio Plugin Backend Styles
+ */
+.wrap h2.subscriptio_tabs_container {
+    width: 100%;
+    /* min-width: 850px; */
+}
+.wrap h2.subscriptio_tabs_container {
+    border-bottom: 1px solid #ccc;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.subscriptio_settings_container {
+    width: 820px;
+    min-width: 500px;
+    float: left;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background-color: #fcfcfc;
+}
+.subscriptio_settings_container tr {
+    height: 45px;
+}
+.subscriptio_settings_container th {
+    width: 300px;
+    padding: 15px 10px 5px 0;
+}
+.subscriptio_settings_container td {
+    padding: 10px 10px 5px 10px;
+}
+.subscriptio_settings_container h2,
+.subscriptio_settings_container h3 {
+    padding: 10px 0 10px 15px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+.subscriptio_settings_container .form-table {
+    margin: 10px 0 10px 25px;
+    width: 90%;
+}
+.subscriptio_settings_container .submit {
+    border-top: 1px solid #dfdfdf;
+    padding: 15px 0 10px 15px;
+}
+.subscriptio_settings_container .subscriptio_field_width {
+    width: 100%;
+}
+.subscriptio_settings_container .subscriptio_field_width_third {
+    width: 33%;
+}

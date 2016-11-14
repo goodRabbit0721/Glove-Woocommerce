@@ -1,0 +1,37 @@
+.es_caption {
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-right:5px;
+}
+.es_msg {
+	width: 30%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+	color:#F00;
+}
+.es_textbox {
+	padding-bottom:10px;
+}
+.es_button {
+	padding-top:10px;
+	padding-bottom:5px;
+}
+.es_textbox_class {
+	width:200px;
+}
+.es_textbox_button {
+	width:130px;
+}
+.es_lablebox {
+	padding-bottom:3px;
+}
+@media only screen and (max-width: 768px) {
+	.es_msg {
+		width: 74%;
+	    margin: 0 auto;
+	    font-size: 22px;
+	    text-align: center;
+	    color: #F00;
+	}
+}

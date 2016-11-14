@@ -1,0 +1,138 @@
+/*================================
+=            SXY Zoom            =
+================================*/
+.sxy-zoom-container .sxy-zoom-viewport {
+	z-index: 1000;
+}
+.sxy-zoom-container img {
+	border: 0;
+	max-width: none;
+}
+.sxy-zoom-container div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.sxy-zoom-container .sxy-zoom-dragpad,
+.sxy-zoom-container .sxy-overlay,
+.sxy-zoom-container .inner-thumb,
+.sxy-zoom-container .sxy-zoom-bg {
+	width: 100%;
+	height: 100%;
+}
+.sxy-zoom-bg {
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+.sxy-zoom-container .sxy-controls {
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	filter: inherit;
+}
+.sxy-zoom-container .overlay {
+	height: 100%;
+}
+.sxy-zoom-container .sxy-slider {
+	height: 100%;
+}
+.sxy-zoom-container .sxy-zoom-dragpad {
+	position: absolute !important;
+	left: 0;
+	top: 0;
+}
+.sxy-zoom-container .sxy-controls .overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 26px;
+	border-top-left-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	background: #fff;
+	filter: inherit;
+}
+.sxy-zoom-container .in {
+	filter: inherit;
+	position: relative;
+	display: block;
+}
+.sxy-zoom-container .out {
+	filter: inherit;
+	position: relative;
+	display: block;
+}
+.sxy-zoom-container .sxy-slider {
+	filter: inherit;
+	position: relative;
+}
+.sxy-zoom-container .sxy-handle {
+	filter: inherit;
+	position: absolute;
+}
+.sxy-zoom-container {
+	position: relative;
+}
+.sxy-zoom-container .sxy-zoom-viewfinder {
+	position: absolute;
+}
+.sxy-zoom-container .inner-thumb{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sxy-zoom-container .sxy-zoom-dragpad {
+	position: relative;
+}
+.sxy-zoom-container .sxy-zoom-dragpad .sxy-overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.sxy-zoom-container .sxy-zoom-viewport {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+}
+.sxy-zoom-container .sxy-zoom-viewport img {
+	position: absolute;
+}
+.sxy-zoom-container.sxy-zoom-loading .sxy-loading {
+	display: none;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 5px;
+}
+.sxy-zoom-container.sxy-zoom-loading .sxy-loading  span {
+	display: block;
+}
+.sxy-zoom-mode-dock  .sxy-zoom-viewport {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+}
+.sxy-zoom-mode-window .sxy-zoom-viewfinder {
+  z-index: 1001;
+}
+.sxy-zoom-mode-lens  .sxy-zoom-viewport {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+}
+.sxy-zoom-mode-slippy  .sxy-zoom-dragpad {
+	cursor: pointer;
+}
+.sxy-zoom-mode-slippy  .sxy-zoom-dragpad.down {
+	cursor: move;
+}
+
+
+
+/*-----  End of SXY Zoom  ------*/
+

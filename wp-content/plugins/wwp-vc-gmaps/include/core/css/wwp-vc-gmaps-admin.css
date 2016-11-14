@@ -1,0 +1,60 @@
+.vc_element-icon.map  {
+    background-image: url(../img/gmaps_map.jpg);
+}
+.vc_element-icon.marker  {
+    background-image: url(../img/gmaps_pin.png);
+}
+
+#markers-dropdown i{
+    font-size: 24px;
+    padding: 7px;
+}
+#markers-dropdown {
+    border: 1px solid #DDDDDD;
+    height: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 10px 0;
+}
+#markers-dropdown input#trace {
+    display:none;
+}
+#markers-dropdown li:hover {
+    opacity: 0.7;
+}
+#markers-dropdown li.selected {
+    border-bottom: 3px solid red;
+}
+.icon-preview {
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+}
+.icon-preview > i {
+    font-size:28px;
+    vertical-align: middle;
+}
+.wpb_element_label {
+    margin-right: 15px;
+    line-height: 30px;
+}
+#markers-dropdown > .pin-list {
+    margin-top: 0;
+    background-image: none !important;
+    width: 100% !important;
+    padding: 0;
+}
+#markers-dropdown > .pin-list li img {
+    max-height: 50px;
+}
+#markers-dropdown > .pin-list li {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 9px;
+    text-align: center;
+}
+#markers-dropdown > .pin-list label {
+    display: none;
+}

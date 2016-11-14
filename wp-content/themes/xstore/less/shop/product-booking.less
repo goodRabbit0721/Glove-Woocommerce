@@ -1,0 +1,121 @@
+.product-view-booking{
+	.content-product{
+		border:5px solid @borderColor;
+		text-align: center;
+		padding: 4vh 3.5vh;
+		background-color: #fff;
+		.product-title{
+			font-size: 24px;
+			text-transform: none;
+		}
+	}
+	.content-product .product-content-image img{
+		min-width: 1px;
+	}
+	.star-rating{
+		display: none;
+	}
+	.price{
+		margin-bottom: 10px;
+		position: relative;
+		z-index: 10;
+		font-size: 16px;
+		color: #ccc;
+		.amount{
+			font-size: 36px;
+			font-weight: bold;
+		}
+		del span{
+			font-size: 20px !important;
+			color: #ccc !important;
+		}
+		> span:nth-child(2) {
+		    font-size: 20px;
+		}
+	}
+	.product-content-image{
+		margin-bottom: 20px;
+	}
+	.product-excerpt{
+		display: block !important;
+		position: relative;
+		z-index: 10;
+		font-size: 16px;
+		line-height: 28px;
+		margin-bottom: 30px;
+	}
+	.shop_attributes{
+		width: 100%;
+		position: relative;
+		z-index: 10;
+		margin-bottom: 30px;
+		th,td{
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+		td p{
+			font-size: 14px;
+			font-weight: bold;
+			color: #1e1e1e;
+		}
+		th{
+			font-weight: 400;
+			color: #999;
+			font-size: 14px;
+			text-transform: none;
+		}
+		td{
+			font-weight: bold;
+			font-size: 14px;
+			color: #1e1e1e;
+			text-align: right;
+		}
+	}
+	.content-product .button{
+		position: relative;
+		z-index: 10;
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+		&.compare{
+			margin-top: 20px;
+			background-color: transparent !important;
+			text-align: left;
+			width: auto;
+			display: table;
+			padding-right: 0;
+			padding-left: 20px;
+			font-size: 13px;
+			line-height: 1;
+			height: auto;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			position: relative;
+			vertical-align: middle;
+			border: none;
+			&:hover{
+				color: #d64444;
+			}
+			&:before{
+				content:"\e915";
+				font-family: 'xstore-icons';
+				font-size: 14px;
+				position: absolute;
+				color: #1e1e1e;
+				left: 0;
+				top:-1px;
+				.transition();
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:480px){
+	.product-view-booking{
+		width: 100% !important;
+		.button{
+			line-height: 2.9rem;
+			padding: 0 2.3em;
+		}
+	}
+}

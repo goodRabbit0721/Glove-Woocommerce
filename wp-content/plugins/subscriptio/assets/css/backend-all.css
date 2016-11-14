@@ -1,0 +1,368 @@
+/**
+ * Subscriptio Plugin Backend Styles (loaded on all admin pages)
+ */
+
+#adminmenu #menu-posts-subscription .menu-icon-post div.wp-menu-image:before,
+#adminmenu #menu-posts-subscription .menu-icon-subscription div.wp-menu-image:before {
+    font-family: FontAwesome !important;
+    font-size: 1.3em !important;
+    content: "\f01e";
+    position: relative;
+    top: 2px;
+}
+
+div.show_if_subscriptio_simple select.subscriptio_product_page_half_width {
+    width: 12.5%;
+    min-width: 50px;
+}
+div.show_if_subscriptio_simple input.subscriptio_product_page_half_width {
+    width: 37.5%;
+    min-width: 50px;
+}
+
+table.data_table tr.show_if_subscriptio_variable input.subscriptio_product_page_half_width,
+.wc-metaboxes-wrapper .wc-metabox table.data_table tr.show_if_subscriptio_variable select.subscriptio_product_page_half_width {
+    width: 49.5% !important;
+    min-width: 50px;
+}
+
+div.show_if_subscriptio_variable input.subscriptio_product_page_half_width {
+    width: 74% !important;
+    min-width: 50px;
+}
+div.show_if_subscriptio_variable select.subscriptio_product_page_half_width {
+    width: 24% !important;
+    min-width: 50px;
+}
+
+div.show_if_subscriptio_variable select.subscriptio_product_page_half_width {
+    margin-top: -0.4%;
+}
+
+.subscriptio_variable_product_handle_icon {
+    padding-left: 5px;
+}
+
+table.wp-list-table .column-subscriptio {
+    width: 46px;
+    text-align: left!important;
+    padding: 0;
+}
+
+table.wp-list-table span.subscriptio_product_list_header_icon {
+    display: block;
+    position: relative;
+    text-indent: -9999px;
+    height: 1em;
+    width: 1em;
+}
+table.wp-list-table span.subscriptio_product_list_header_icon:before {
+    font-family: FontAwesome;
+    content: "\f01e";
+    text-indent: 0;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table.wp-list-table i.subscriptio_product_list_icon {
+    padding-top: 9px;
+}
+
+.wp-list-table .column-subscriptio_note {
+    width: 30%;
+}
+
+.wp-list-table .column-subscriptio_product {
+    width: 25%;
+}
+.wp-list-table .column-subscriptio_user {
+    width: 15%;
+}
+
+.sub_transaction_result_processing,
+.sub_transaction_result_success,
+.sub_transaction_result_failed,
+.sub_transaction_result_error {
+    color: #ffffff;
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+}
+.sub_transaction_result_processing:hover,
+.sub_transaction_result_success:hover,
+.sub_transaction_result_failed:hover,
+.sub_transaction_result_error:hover {
+    color: #ffffff;
+}
+.sub_transaction_result_processing {
+    background-color: #ec971f;
+}
+.sub_transaction_result_success {
+    background-color: #449d44;
+}
+.sub_transaction_result_failed {
+    background-color: #d9534f;
+}
+.sub_transaction_result_error {
+    background-color: #d9534f;
+}
+.sub_transaction_result_small {
+    font-size: 11px;
+    padding: 1px 3px 1px 3px;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+}
+
+.subscription_status_pending,
+.subscription_status_failed,
+.subscription_status_cancelled,
+.subscription_status_trial,
+.subscription_status_overdue,
+.subscription_status_active,
+.subscription_status_paused,
+.subscription_status_suspended,
+.subscription_status_expired {
+    color: #ffffff;
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+}
+.subscription_status_pending:hover,
+.subscription_status_failed:hover,
+.subscription_status_cancelled:hover,
+.subscription_status_trial:hover,
+.subscription_status_overdue:hover,
+.subscription_status_active:hover,
+.subscription_status_paused:hover,
+.subscription_status_suspended:hover,
+.subscription_status_expired:hover {
+    color: #ffffff;
+}
+.subscription_status_pending {
+    background-color: #b8d9ba;
+}
+.subscription_status_failed {
+    background-color: #d9534f;
+}
+.subscription_status_cancelled {
+    background-color: #cccccc;
+}
+.subscription_status_trial {
+    background-color: #5bc0de;
+}
+.subscription_status_overdue {
+    background-color: #f1b945;
+}
+.subscription_status_active {
+    background-color: #449d44;
+}
+.subscription_status_paused {
+    background-color: #428bca;
+}
+.subscription_status_suspended {
+    background-color: #ec971f;
+}
+.subscription_status_expired {
+    background-color: #cccccc;
+}
+
+#subscriptio_subscription_details .handlediv,
+#subscriptio_subscription_details h3.hndle {
+    display: none;
+}
+#subscriptio_subscription_details .inside {
+    padding: 0;
+    margin: 0;
+}
+#subscription_data {
+    padding: 24px;
+}
+#subscription_data p {
+    color: #777;
+}
+#subscription_data h2 {
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    line-height: 1.2;
+}
+#subscription_data h4 {
+    color: #333;
+    margin: 1.33em 0 0;
+}
+.subscription_subheading {
+    margin: 0;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+.subscription_data_container {
+    clear: both;
+    overflow: hidden;
+}
+.subscription_data_content {
+    float: left;
+    width: 31%;
+    padding: 0 2% 0 0;
+}
+#subscription_data .subscription_data_content strong {
+    display: block;
+}
+
+.subscription_edit_page_status {
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.subscriptio_nothing_to_display {
+    font-style: italic;
+}
+
+#subscriptio_subscription_items .inside {
+    margin: 0;
+    padding: 0;
+}
+.subscriptio_subscription_items_list {
+    border-spacing: 0px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.subscriptio_subscription_items_list thead tr {
+    background-color: #f5f5f5;
+}
+.subscriptio_subscription_items_list thead th {
+    font-size: 11px;
+    text-align: left;
+    background-color: #f5f5f5;
+    padding: 8px;
+}
+.subscriptio_subscription_items_list tbody td {
+    text-align: left;
+    line-height: 25px;
+    padding: 8px;
+    vertical-align: top;
+    border-bottom: 1px dotted #ececec;
+}
+.subscriptio_subscription_items_list tbody tr:last-child td {
+    border: none;
+}
+.subscriptio_subscription_items_list tfoot td {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+    padding: 8px;
+}
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_quantity,
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_total,
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_tax {
+    text-align: right;
+    width: 5%;
+}
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_item {
+    padding-left: 12px;
+}
+.subscriptio_subscription_items_list .subscriptio_subscription_items_list_tax {
+    padding-right: 12px;
+}
+
+.subscriptio_transaction_processing,
+.subscriptio_transaction_success,
+.subscriptio_transaction_failed,
+.subscriptio_transaction_error {
+    margin-top: 5px;
+    padding: 10px;
+}
+.subscriptio_transaction_processing {
+    background: #efefef;
+}
+.subscriptio_transaction_success {
+    background: #dff0d8;
+}
+.subscriptio_transaction_failed {
+    background: #f2dede;
+}
+.subscriptio_transaction_error {
+    background: #f2dede;
+}
+.subscriptio_transaction_note {
+    margin-top: 3px;
+}
+.subscriptio_transaction_meta {
+    font-size: 11px;
+    color: #999999;
+    padding: 5px 0 10px 8px;
+    margin: 0;
+}
+
+#subscriptio_subscription_actions .inside {
+    margin: 0;
+    padding: 0;
+}
+.subscription_actions {
+    padding: 8px 12px;
+}
+.subscription_actions select {
+    width: 100%;
+}
+.subscription_actions_footer {
+    border-top: 1px solid #eee;
+    overflow: hidden;
+    padding: 8px 12px;
+}
+.subscriptio_subscription_delete {
+    line-height: 26px;
+    float: left;
+}
+.subscription_actions_footer button {
+    float: right;
+}
+
+.subscriptio_admin_address_fields {
+    display: none;
+}
+
+#subscription_data .subscription_data_content .form-field label {
+    padding: 0 0 4px;
+    display: block;
+}
+#subscription_data .subscription_data_content .form-field input {
+    width: 100%;
+}
+#subscription_data .subscription_data_content .form-field {
+    float: left;
+    width: 48%;
+    margin: 8px 0 0;
+    padding: 0;
+}
+#subscription_data .subscription_data_content ._shipping_last_name_field,
+#subscription_data .subscription_data_content ._shipping_address_2_field,
+#subscription_data .subscription_data_content ._shipping_postcode_field,
+#subscription_data .subscription_data_content ._shipping_state_field {
+    float: right;
+}
+#subscription_data .subscription_data_content ._shipping_company_field {
+    width: 100%;
+    clear: both;
+}
+.subscriptio_admin_address_save {
+    clear: both;
+}
+#subscription_data .subscriptio_save_address,
+#subscription_data #subscriptio_cancel_address_edit {
+    margin-top: 15px;
+    float: left;
+}
+#subscription_data #subscriptio_cancel_address_edit {
+    margin-left: 5px;
+}
+
+.subscriptio_url_mismatch form {
+    padding: 5px 0 15px 0;
+}

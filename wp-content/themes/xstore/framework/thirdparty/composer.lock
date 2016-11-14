@@ -1,0 +1,204 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7d9cfe1067bdbb4dc34c149abfa623a4",
+    "content-hash": "006b5c39ba7052ffbad57c00dec54f38",
+    "packages": [
+        {
+            "name": "opauth/facebook",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opauth/facebook.git",
+                "reference": "28c0e53393a03a66cbfea03073d1d6aacfaddb69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opauth/facebook/zipball/28c0e53393a03a66cbfea03073d1d6aacfaddb69",
+                "reference": "28c0e53393a03a66cbfea03073d1d6aacfaddb69",
+                "shasum": ""
+            },
+            "require": {
+                "opauth/opauth": ">=0.2.0",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "U-Zyn Chua",
+                    "email": "chua@uzyn.com",
+                    "homepage": "http://uzyn.com"
+                }
+            ],
+            "description": "Facebook strategy for Opauth",
+            "homepage": "http://opauth.org",
+            "keywords": [
+                "Authentication",
+                "auth",
+                "facebook"
+            ],
+            "time": "2012-09-21 04:47:35"
+        },
+        {
+            "name": "opauth/google",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opauth/google.git",
+                "reference": "35df77684c14acb346a8c3753ae3809852d1a47e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opauth/google/zipball/35df77684c14acb346a8c3753ae3809852d1a47e",
+                "reference": "35df77684c14acb346a8c3753ae3809852d1a47e",
+                "shasum": ""
+            },
+            "require": {
+                "opauth/opauth": ">=0.2.0",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "U-Zyn Chua",
+                    "email": "chua@uzyn.com",
+                    "homepage": "http://uzyn.com"
+                }
+            ],
+            "description": "Google strategy for Opauth",
+            "homepage": "http://opauth.org",
+            "keywords": [
+                "Authentication",
+                "auth",
+                "google"
+            ],
+            "time": "2012-10-18 14:39:52"
+        },
+        {
+            "name": "opauth/opauth",
+            "version": "0.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opauth/opauth.git",
+                "reference": "436fb98c2374c9e8ae4d8adddf83214bee4d9c72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opauth/opauth/zipball/436fb98c2374c9e8ae4d8adddf83214bee4d9c72",
+                "reference": "436fb98c2374c9e8ae4d8adddf83214bee4d9c72",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "suggest": {
+                "opauth/facebook": "Allows Facebook authentication",
+                "opauth/google": "Allows Google authentication",
+                "opauth/twitter": "Allows Twitter authentication"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/Opauth/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "U-Zyn Chua",
+                    "email": "chua@uzyn.com",
+                    "homepage": "http://uzyn.com"
+                }
+            ],
+            "description": "Multi-provider authentication framework for PHP",
+            "homepage": "http://opauth.org",
+            "keywords": [
+                "Authentication",
+                "OpenId",
+                "auth",
+                "facebook",
+                "google",
+                "oauth",
+                "omniauth",
+                "twitter"
+            ],
+            "time": "2013-05-10 09:01:52"
+        },
+        {
+            "name": "opauth/twitter",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opauth/twitter.git",
+                "reference": "24792d512ccc67e7d11e9249737616f039551c11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opauth/twitter/zipball/24792d512ccc67e7d11e9249737616f039551c11",
+                "reference": "24792d512ccc67e7d11e9249737616f039551c11",
+                "shasum": ""
+            },
+            "require": {
+                "opauth/opauth": ">=0.2.0",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "U-Zyn Chua",
+                    "email": "chua@uzyn.com",
+                    "homepage": "http://uzyn.com"
+                }
+            ],
+            "description": "Twitter strategy for Opauth",
+            "homepage": "http://opauth.org",
+            "keywords": [
+                "Authentication",
+                "auth",
+                "twitter"
+            ],
+            "time": "2013-06-12 07:50:11"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,59 @@
+/*=========================================
+=            No products found            =
+=========================================*/
+
+.empty-category-block {
+	text-align: center;
+	margin-top: 3em;
+	padding-top: 280px;
+	margin-bottom: 60px;
+	&:before{
+		content: "\e903";
+		font-family:'xstore-icons';
+		font-size:260px;
+		color: #e6e6e6;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	h2 {
+		font-size: 2.57rem;
+		text-transform: uppercase;
+		font-weight: @bolder;
+	}
+
+	.not-found-info {
+		width: 500px;
+		max-width: 100%;
+		margin: 0 auto 2em;
+	}
+
+	.btn {
+		.btn-black();
+		&:before{
+			content:"\f104";
+			display: inline-block;
+			font-family: FontAwesome;
+			position: relative;
+			left: -10px;
+			font-size: 14px;
+		}
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.empty-category-block{
+		padding-top: 130px;
+		margin-top: 0;
+		&:before{
+			line-height:1;
+			font-size: 120px;
+		}
+		h2{
+			line-height:28px;
+			font-size: 24px;
+		}
+	}
+}
+/*=====  End of No products found  ======*/

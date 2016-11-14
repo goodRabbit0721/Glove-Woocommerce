@@ -1,0 +1,768 @@
+/**
+*
+* General plugin styles for the Smart Product represantation on your site.
+* Please add your CSS code in the end of the file instead of editing below code to avoid possible layout issues.
+*
+* Email support@topdevs.net for support.
+*
+*/
+
+/**
+ * 
+ * Table of contents
+ *
+ * - Slider Wrap
+ * - Loader
+ * - Preview Image
+ * - Slider Images
+ * - Mouse pointer
+ * - Fullscreen Mode
+ * - Navigation styles and colors
+ *    - Navbar position
+ *    - Icons
+ *    - Style sprites
+ *    - Icon Colors
+ *        - Dark Blue
+ *        - Light Blue
+ *        - Red
+ *        - Brown
+ *        - Purple
+ *        - Gray
+ *        - Yellow
+ *        - Green
+ *    - Scrollbar
+ *        - noUISlider
+ *        - Scrollbar Colors
+ *            - Dark Blue
+ *            - Light Blue
+ *            - Red
+ *            - Brown
+ *            - Purple
+ *            - Gray
+ *            - Yellow
+ *            - Green
+ * - Magnific Popup
+ */
+
+
+/* Slider wrap */
+.threesixty-image {
+  position: relative;
+  overflow: hidden;
+  border: solid 1px #999;
+  margin: 2%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  max-width: 95%;
+  -moz-transition-property: none;
+  -webkit-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+}
+.threesixty-image.threesixty-no-border {
+  border: 0px;
+}
+.threesixty-image img {
+  display: block;
+  max-width: 100% !important;
+  width: 100%;
+  height: auto;
+}
+
+/* Loader */
+.threesixty-spinner {
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  top: calc(50% - 15px);
+  left: calc(50% - 30px);
+}
+.threesixty-spinner span {
+  font-family: Arial, "MS Trebuchet", sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+}
+
+/* Preview Image */
+.threesixty-preview-image {
+  opacity:0.4;
+  filter:alpha(opacity=40)
+}
+
+/* Slider Images*/
+.threesixty-images {
+  display: none;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.threesixty-images li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.threesixty-images img {
+  border: 0px solid;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none !important;
+  transition: none !important;
+}
+.threesixty-images .current-image {
+  visibility: visible;
+  width: 100%;
+}
+.threesixty-images .previous-image {
+  visibility: hidden;
+  width: 0;
+}
+
+/* Mouse pointer */
+.threesixty-hand-closed {
+  cursor: url(../images/hand_closed.png), auto;
+}
+.threesixty-hand-open {
+  cursor: url(../images/hand_open.png), auto;
+}
+
+
+/**
+ * Navigation styles and colors
+ * 
+ */
+
+/* Navbar position */
+.threesixty-nav-bar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+/* Icons */
+.threesixty-nav-bar a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  float: left;
+  background: url(../images/icons/32/1_holly_green.png) no-repeat;
+  text-indent: -99999px;
+}
+
+/* Style sprites */
+.threesixty-glow .threesixty-nav-bar a,
+.threesixty-glow .threesixty-mfp-anchor,
+.threesixty-glow .mfp-close {
+  background: url(../images/icons/32/1_holly_green.png) no-repeat;
+}
+.threesixty-fancy .threesixty-nav-bar a,
+.threesixty-fancy .threesixty-mfp-anchor,
+.threesixty-fancy .mfp-close {
+  background: url(../images/icons/32/2_navy_round.png) no-repeat;
+}
+.threesixty-wave .threesixty-nav-bar a,
+.threesixty-wave .threesixty-mfp-anchor,
+.threesixty-wave .mfp-close {
+  background: url(../images/icons/32/3_round_yellow.png) no-repeat;
+}
+.threesixty-flat-round .threesixty-nav-bar a,
+.threesixty-flat-round .threesixty-mfp-anchor,
+.threesixty-flat-round .mfp-close {
+  background: url(../images/icons/32/4_flat_round.png) no-repeat;
+}
+.threesixty-flat-square .threesixty-nav-bar a,
+.threesixty-flat-square .threesixty-mfp-anchor,
+.threesixty-flat-square .mfp-close {
+  background: url(../images/icons/32/5_flat_square.png) no-repeat;
+}
+.threesixty-vintage .threesixty-nav-bar a,
+.threesixty-vintage .threesixty-mfp-anchor,
+.threesixty-vintage .mfp-close {
+  background: url(../images/icons/32/6_vintage.png) no-repeat;
+}
+.threesixty-arrows .threesixty-nav-bar a,
+.threesixty-arrows .threesixty-mfp-anchor,
+.threesixty-arrows .mfp-close {
+  background: url(../images/icons/32/7_just_arrows.png) no-repeat;
+}
+.threesixty-leather .threesixty-nav-bar a,
+.threesixty-leather .threesixty-mfp-anchor,
+.threesixty-leather .mfp-close {
+  background: url(../images/icons/32/8_leather.png) no-repeat;
+}
+
+/* Colors */
+
+/* Dark Blue */
+.threesixty-dark-blue .threesixty-nav-bar .threesixty-play {
+  background-position: 0 0;
+}
+.threesixty-dark-blue .threesixty-nav-bar .threesixty-stop {
+  background-position: 0 -32px;
+}
+.threesixty-dark-blue .threesixty-nav-bar .threesixty-next {
+  background-position: 0 -64px;
+}
+.threesixty-dark-blue .threesixty-nav-bar .threesixty-previous {
+  background-position: 0 -96px;
+}
+.threesixty-dark-blue .threesixty-mfp-anchor {
+  background-position: 0 -128px;
+}
+.threesixty-dark-blue .mfp-close {
+  background-position: 0 -160px;
+}
+
+/* Light Blue */
+.threesixty-light-blue .threesixty-nav-bar .threesixty-play {
+  background-position: -32px 0;
+}
+.threesixty-light-blue .threesixty-nav-bar .threesixty-stop {
+  background-position: -32px -32px;
+}
+.threesixty-light-blue .threesixty-nav-bar .threesixty-next {
+  background-position: -32px -64px;
+}
+.threesixty-light-blue .threesixty-nav-bar .threesixty-previous {
+  background-position: -32px -96px;
+}
+.threesixty-light-blue .threesixty-mfp-anchor {
+  background-position: -32px -128px;
+}
+.threesixty-light-blue .mfp-close {
+  background-position: -32px -160px;
+}
+
+/* Red */
+.threesixty-red .threesixty-nav-bar .threesixty-play {
+  background-position: -64px 0;
+}
+.threesixty-red .threesixty-nav-bar .threesixty-stop {
+  background-position: -64px -32px;
+}
+.threesixty-red .threesixty-nav-bar .threesixty-next {
+  background-position: -64px -64px;
+}
+.threesixty-red .threesixty-nav-bar .threesixty-previous {
+  background-position: -64px -96px;
+}
+.threesixty-red .threesixty-mfp-anchor {
+  background-position: -64px -128px;
+}
+.threesixty-red .mfp-close {
+  background-position: -64px -160px;
+}
+
+/* Brown */
+.threesixty-brown .threesixty-nav-bar .threesixty-play {
+  background-position: -96px 0;
+}
+.threesixty-brown .threesixty-nav-bar .threesixty-stop {
+  background-position: -96px -32px;
+}
+.threesixty-brown .threesixty-nav-bar .threesixty-next {
+  background-position: -96px -64px;
+}
+.threesixty-brown .threesixty-nav-bar .threesixty-previous {
+  background-position: -96px -96px;
+}
+.threesixty-brown .threesixty-mfp-anchor {
+  background-position: -96px -128px;
+}
+.threesixty-brown .mfp-close {
+  background-position: -96px -160px;
+}
+
+/* Purple */
+.threesixty-purple .threesixty-nav-bar .threesixty-play {
+  background-position: -128px 0;
+}
+.threesixty-purple .threesixty-nav-bar .threesixty-stop {
+  background-position: -128px -32px;
+}
+.threesixty-purple .threesixty-nav-bar .threesixty-next {
+  background-position: -128px -64px;
+}
+.threesixty-purple .threesixty-nav-bar .threesixty-previous {
+  background-position: -128px -96px;
+}
+.threesixty-purple .threesixty-mfp-anchor {
+  background-position: -128px -128px;
+}
+.threesixty-purple .mfp-close {
+  background-position: -128px -160px;
+}
+
+/* Gray */
+.threesixty-gray .threesixty-nav-bar .threesixty-play {
+  background-position: -160px 0;
+}
+.threesixty-gray .threesixty-nav-bar .threesixty-stop {
+  background-position: -160px -32px;
+}
+.threesixty-gray .threesixty-nav-bar .threesixty-next {
+  background-position: -160px -64px;
+}
+.threesixty-gray .threesixty-nav-bar .threesixty-previous {
+  background-position: -160px -96px;
+}
+.threesixty-gray .threesixty-mfp-anchor {
+  background-position: -160px -128px;
+}
+.threesixty-gray .mfp-close {
+  background-position: -160px -160px;
+}
+
+/* Yellow */
+.threesixty-yellow .threesixty-nav-bar .threesixty-play {
+  background-position: -192px 0;
+}
+.threesixty-yellow .threesixty-nav-bar .threesixty-stop {
+  background-position: -192px -32px;
+}
+.threesixty-yellow .threesixty-nav-bar .threesixty-next {
+  background-position: -192px -64px;
+}
+.threesixty-yellow .threesixty-nav-bar .threesixty-previous {
+  background-position: -192px -96px;
+}
+.threesixty-yellow .threesixty-mfp-anchor {
+  background-position: -192px -128px;
+}
+.threesixty-yellow .mfp-close {
+  background-position: -192px -160px;
+}
+
+/* Green */
+.threesixty-green .threesixty-nav-bar .threesixty-play {
+  background-position: -224px 0;
+}
+.threesixty-green .threesixty-nav-bar .threesixty-stop {
+  background-position: -224px -32px;
+}
+.threesixty-green .threesixty-nav-bar .threesixty-next {
+  background-position: -224px -64px;
+}
+.threesixty-green .threesixty-nav-bar .threesixty-previous {
+  background-position: -224px -96px;
+}
+.threesixty-green .threesixty-mfp-anchor {
+  background-position: -224px -128px;
+}
+.threesixty-green .mfp-close {
+  background-position: -224px -160px;
+}
+
+/* Scrollbar */
+.threesixty-scrollbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.threesixty-scrollbar-top .threesixty-scrollbar {
+  top: 0;
+  bottom: auto;
+}
+
+
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+.noUi-target,
+.noUi-target * {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-ms-touch-action: none;
+-ms-user-select: none;
+-moz-user-select: none;
+-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+.noUi-stacking .noUi-handle {
+/* This class is applied to the lower origin when
+   its values is > 50%. */
+  z-index: 10;
+}
+.noUi-stacking + .noUi-origin {
+/* Fix stacking order in IE7, which incorrectly
+   creates a new context for the origins. */
+  *z-index: -1;
+}
+.noUi-state-tap .noUi-origin {
+-webkit-transition: left 0.3s, top 0.3s;
+  transition: left 0.3s, top 0.3s;
+}
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+  height: 14px;
+}
+.noUi-horizontal .noUi-handle {
+  width: 34px;
+  height: 24px;
+  left: -17px;
+  top: -6px;
+}
+.noUi-horizontal.noUi-extended {
+  padding: 0 15px;
+}
+.noUi-horizontal.noUi-extended .noUi-origin  {
+  right: -15px;
+}
+.noUi-vertical {
+  width: 18px;
+}
+.noUi-vertical .noUi-handle {
+  width: 28px;
+  height: 34px;
+  left: -6px;
+  top: -17px;
+}
+.noUi-vertical.noUi-extended {
+  padding: 15px 0;
+}
+.noUi-vertical.noUi-extended .noUi-origin  {
+  bottom: -15px;
+}
+
+/* Styling;
+ */
+.noUi-background {
+  background: #FAFAFA;
+  box-shadow: inset 0 1px 1px #f0f0f0;
+}
+.noUi-connect {
+  background: #3FB8AF;
+  box-shadow: inset 0 0 3px rgba(51,51,51,0.45);
+-webkit-transition: background 450ms;
+  transition: background 450ms;
+}
+.noUi-origin {
+  border-radius: 2px;
+}
+.noUi-target {
+  border-radius: 4px;
+  border: 1px solid #D3D3D3;
+  box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
+}
+.noUi-target.noUi-connect {
+  box-shadow: inset 0 0 3px rgba(51,51,51,0.45), 0 3px 6px -5px #BBB;
+}
+
+/* Handles and cursors;
+ */
+.noUi-dragable {
+  cursor: w-resize;
+}
+.noUi-vertical .noUi-dragable {
+  cursor: n-resize;
+}
+.noUi-handle {
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #FFF;
+  cursor: default;
+  box-shadow: inset 0 0 1px #FFF,
+        inset 0 1px 7px #EBEBEB,
+        0 3px 6px -3px #BBB;
+}
+.noUi-active {
+  box-shadow: inset 0 0 1px #FFF,
+        inset 0 1px 7px #DDD,
+        0 3px 6px -3px #BBB;
+}
+
+/* Handle stripes;
+ */
+.noUi-handle:before,
+.noUi-handle:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 10px;
+  width: 1px;
+  background: #E8E7E6;
+  left: 14px;
+  top: 6px;
+}
+.noUi-handle:after {
+  left: 17px;
+}
+.noUi-vertical .noUi-handle:before,
+.noUi-vertical .noUi-handle:after {
+  width: 14px;
+  height: 1px;
+  left: 6px;
+  top: 14px;
+}
+.noUi-vertical .noUi-handle:after {
+  top: 17px;
+}
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,
+[disabled] .noUi-connect {
+  background: #B8B8B8;
+}
+[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+/* Scrollbar Styles */
+.threesixty-scrollbar .noUi-target {
+  margin: 8px 20px;
+}
+
+/* Dark blue */
+.threesixty-dark-blue .noUi-target {
+  border: 1px solid #0C4063;
+}
+.threesixty-dark-blue .noUi-target .noUi-base {
+  background: #2980b9;
+  box-shadow: inset 0px 1px 7px #115785
+}
+.threesixty-dark-blue .noUi-target .noUi-origin {
+  background: #3FACF5;
+  box-shadow: inset 0px 1px 7px #115785
+}
+.threesixty-dark-blue .noUi-target .noUi-handle {
+  border: 1px solid #006E8E;
+  background: #38AFFF;
+  box-shadow: inset 0px 1px 7px #115785
+}
+.threesixty-dark-blue .noUi-handle:before, 
+.threesixty-dark-blue .noUi-handle:after {
+  background: #0C4063;
+}
+
+/* Light blue */
+.threesixty-light-blue .noUi-target {
+  border: 1px solid #0c5b63;
+}
+.threesixty-light-blue .noUi-target .noUi-base {
+  background: #29adb9;
+  box-shadow: inset 0px 1px 7px #117b85
+}
+.threesixty-light-blue .noUi-target .noUi-origin {
+  background: #3fe5f5;
+  box-shadow: inset 0px 1px 7px #117b85
+}
+.threesixty-light-blue .noUi-target .noUi-handle {
+  border: 1px solid #008e80;
+  background: #38edff;
+  box-shadow: inset 0px 1px 7px #117b85
+}
+.threesixty-light-blue .noUi-handle:before, 
+.threesixty-light-blue .noUi-handle:after {
+  background: #0c5b63;
+}
+
+/* Red */
+.threesixty-red .noUi-target {
+  border: 1px solid #aa0808;
+}
+.threesixty-red .noUi-target .noUi-base {
+  background: #d91111;
+  box-shadow: inset 0px 1px 7px #c33535
+}
+.threesixty-red .noUi-target .noUi-origin {
+  background: #ff4444;
+  box-shadow: inset 0px 1px 7px #c33535
+}
+.threesixty-red .noUi-target .noUi-handle {
+  border: 1px solid #8a0000;
+  background: #ff1c1c;
+  box-shadow: inset 0px 1px 7px #c33535
+}
+.threesixty-red .noUi-handle:before, 
+.threesixty-red .noUi-handle:after {
+  background: #aa0808;
+}
+
+/* Brown */
+.threesixty-brown .noUi-target {
+  border: 1px solid #631c0c;
+}
+.threesixty-brown .noUi-target .noUi-base {
+  background: #b94329;
+  box-shadow: inset 0px 1px 7px #852611
+}
+.threesixty-brown .noUi-target .noUi-origin {
+  background: #f5603f;
+  box-shadow: inset 0px 1px 7px #852611
+}
+.threesixty-brown .noUi-target .noUi-handle {
+  border: 1px solid #813a01;
+  background: #cb692e;
+  box-shadow: inset 0px 1px 7px #852611
+}
+.threesixty-brown .noUi-handle:before, 
+.threesixty-brown .noUi-handle:after {
+  background: #631c0c;
+}
+
+/* Purple */
+.threesixty-purple .noUi-target {
+  border: 1px solid #630c48;
+}
+.threesixty-purple .noUi-target .noUi-base {
+  background: #b9298e;
+  box-shadow: inset 0px 1px 7px #851162
+}
+.threesixty-purple .noUi-target .noUi-origin {
+  background: #f53fbe;
+  box-shadow: inset 0px 1px 7px #851162
+}
+.threesixty-purple .noUi-target .noUi-handle {
+  border: 1px solid #8e007c;
+  background: #ff38c2;
+  box-shadow: inset 0px 1px 7px #851162
+}
+.threesixty-purple .noUi-handle:before, 
+.threesixty-purple .noUi-handle:after {
+  background: #630c48;
+}
+
+/* Gray */
+.threesixty-gray .noUi-target {
+  border: 1px solid #908d84;
+}
+.threesixty-gray .noUi-target .noUi-base {
+  background: #b2a98f;
+  box-shadow: inset 0px 1px 7px #b6b4a8
+}
+.threesixty-gray .noUi-target .noUi-origin {
+  background: #d9d7cb;
+  box-shadow: inset 0px 1px 7px #b6b4a8
+}
+.threesixty-gray .noUi-target .noUi-handle {
+  border: 1px solid #99968f;
+  background: #efefe7;
+  box-shadow: inset 0px 1px 7px #b6b4a8
+}
+.threesixty-gray .noUi-handle:before, 
+.threesixty-gray .noUi-handle:after {
+  background: #908d84;
+}
+
+/* Yellow */
+.threesixty-yellow .noUi-target {
+  border: 1px solid #6a6704;
+}
+.threesixty-yellow .noUi-target .noUi-base {
+  background: #c5be1c;
+  box-shadow: inset 0px 1px 7px #8f8a07
+}
+.threesixty-yellow .noUi-target .noUi-origin {
+  background: #fff835;
+  box-shadow: inset 0px 1px 7px #8f8a07
+}
+.threesixty-yellow .noUi-target .noUi-handle {
+  border: 1px solid #8e7000;
+  background: #fff938;
+  box-shadow: inset 0px 1px 7px #8f8a07
+}
+.threesixty-yellow .noUi-handle:before, 
+.threesixty-yellow .noUi-handle:after {
+  background: #6a6704;
+}
+
+/* Green */
+.threesixty-green .noUi-target {
+  border: 1px solid #046a0f;
+}
+.threesixty-green .noUi-target .noUi-base {
+  background: #1cc52d;
+  box-shadow: inset 0px 1px 7px #078f14
+}
+.threesixty-green .noUi-target .noUi-origin {
+  background: #35ff4a;
+  box-shadow: inset 0px 1px 7px #078f14
+}
+.threesixty-green .noUi-target .noUi-handle  {
+  border: 1px solid #0b8e00;
+  background: #38ff4d;
+  box-shadow: inset 0px 1px 7px #078f14
+}
+.threesixty-green .noUi-handle:before, 
+.threesixty-green .noUi-handle:after {
+  background: #046a0f;
+}
+
+/* Magnific Popup */
+.mfp-content .threesixty-image {
+  position: relative;
+  background: #FFF;
+  margin: 20px auto;
+}
+.threesixty-image.mfp-hide {
+  display: block !important;
+}
+.threesixty-image .threesixty-mfp-anchor,
+.threesixty-image .mfp-close {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  top: auto;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  opacity: 1;
+  margin: 0;
+}
+.threesixty-image .mfp-close:active {
+  top: auto;
+}
+.mfp-content .threesixty-mfp-anchor,
+.threesixty-loading .threesixty-mfp-anchor {
+  display: none;
+}
+.threesixty-scrollbar-bottom .threesixty-mfp-anchor,
+.threesixty-scrollbar-bottom .mfp-close,
+.threesixty-scrollbar-bottom .mfp-close:active {
+  bottom: auto;
+  top: 10px;
+}
+
+/* Add your code below this line */

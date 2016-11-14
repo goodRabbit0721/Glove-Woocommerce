@@ -1,0 +1,93 @@
+.single-product-right{
+	.product-information{
+		padding-top: 40px;
+		float: left;
+	}
+	.product-images{
+		float: right;
+	}
+	.product-content{
+		margin-top: 30px;
+	}
+	.short-description{
+		ul{
+			padding-left: 0;
+		}
+	}
+	&.product-fixed-images .product-content > .row{
+		flex-direction: row-reverse;
+	}
+	.product-information-inner{
+		.page-heading{
+			background: none !important;
+			padding: 0 !important;
+			margin-bottom: 0;
+			.container{
+				transform:none !important;
+			}
+			.a-center{
+				text-align: left !important;
+				padding: 0 !important;
+			}
+			.woocommerce-breadcrumb{
+				margin-bottom: 20px;
+				font-size: 0 !important;
+			}
+			.woocommerce-breadcrumb a{
+				letter-spacing: 2px;
+				font-weight: 600;
+				color: #b2b2b2;
+			}
+			.delimeter{
+				color: #b2b2b2;
+			}
+			.back-history{
+				display: none;
+			}
+			.container{
+				width: 100%;
+				opacity: 1 !important;
+			}
+		}
+		h4.title{
+			display: none;
+		}
+		.product_title,
+		h1.title{
+			font-size: 42px !important;
+			text-transform: capitalize;
+			color: #1e1e1e;
+			margin-bottom: 0.5em;
+		}
+		del .woocommerce-Price-amount.amount{
+			color: #9c9c9c;
+		}
+		ins .woocommerce-Price-amount.amount{
+			color: #1c1a19;
+			font-size: 36px;
+		}
+		.tabs{
+			width: 100%;
+		}
+		.yith-wcwl-add-to-wishlist a{
+			font-size: 0 !important;
+			&:before{
+				font-size: 1.6rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:992px){
+	.single-product-right{
+		.product-content{
+			margin-top: 0;
+		}
+		.product-information{
+			padding-top: 0;
+		}
+		.product-images{
+			float: none;
+		}
+	}
+}

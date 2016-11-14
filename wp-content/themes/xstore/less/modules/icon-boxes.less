@@ -1,0 +1,155 @@
+.ibox-block{
+	.ibox-symbol{
+		display: table-cell;
+		vertical-align: top;
+		padding-right: 1.8em;
+		i{
+			height: 2.8em;
+			line-height: 2.8em;
+			text-align: center;
+			width: 2.8em;
+			display: inline-block;
+			border-radius: 100%;
+			font-size: 1.71rem;
+			.transition();
+			color: #fff;
+		}
+	}
+	.ibox-content{
+		h3{
+			text-transform: uppercase;
+			font-size: 1.28rem;
+			font-weight: @bolder;
+			margin-bottom: 10px;
+		}
+		display: table-cell;
+		vertical-align: middle;
+		line-height: 1.71rem;
+		font-size: 1.07rem;
+		font-weight: @light;
+	}
+	hr{
+		display: none;
+	}
+	&.top-icon{
+		text-align: center;
+		.ibox-symbol{
+			display: inline-block;
+			width: 100%;
+			padding-bottom: 20px;
+			padding-right: 0;
+			text-align: center;
+			i{
+				width: 2.8em;
+				height:2.8em;
+			}
+		}
+		.ibox-content{
+			width:100%;
+			display: inline-block;
+		}
+	}
+	&.right-icon{
+		.ibox-symbol{
+			padding-right: 0;
+			padding-left: 20px;
+			float: right;
+			padding-top: 0;
+		}
+		.ibox-content{
+			text-align: right;
+		}
+		.ibox-text p{
+			text-align: right !important;
+		}
+		.btn{
+			float: right;
+		}
+	}
+	.btn.style-black{
+		color: #ffffff;
+		border-color: #000000;
+		background-color: #000000;
+		&:hover{
+			background-color: #4c4c4c;
+			border-color: #4c4c4c;
+		}
+	}
+	.button-wrap{
+		width:100%;
+	}
+	.align-left{
+		text-align: left;
+	}
+	.align-right{
+		text-align: right;
+	}
+	.align-center{
+		text-align: center;
+	}
+	.btn.size-small{
+		font-size: 11px;
+		padding: 8px 12px;
+		height: auto;
+		line-height: 1;
+	}
+	.btn.size-large{
+		height: auto;
+		line-height: 1;
+		font-size: 15px;
+		padding: 18px 25px;
+	}
+	&:hover{
+		.ibox-symbol i{
+			background-color: #f2f2f2;
+			color: #808080;
+		}
+	}
+}
+
+.vc_cta3-icons-left .vc_cta3-icons,
+.vc_cta3-icons-right .vc_cta3-icons{
+	vertical-align: top !important;
+	top:0 !important;
+	transform:translate(-50%,0) !important;
+}
+
+.vc_cta3{
+	&.vc_cta3-icon-size-lg{
+		.vc_cta3-icons{
+			.vc_icon_element-icon{
+				margin-top: -10px;
+			}
+		}
+	}
+	&.vc_cta3-icon-size-md{
+		.vc_cta3-icons{
+			.vc_icon_element-icon{
+				margin-top: -6px;
+			}
+		}
+	}
+	&.vc_cta3-icon-size-sm{
+		.vc_cta3-icons{
+
+		}
+	}
+	&.vc_cta3-icon-size-xs{
+		.vc_cta3-icons{
+
+		}
+	}
+}
+
+@media only screen and (max-width:768px){
+	.ultimate-map-wrapper{
+		margin-bottom: 30px;
+	}
+	.vc_btn3-container{
+		margin-top: 20px;
+	}
+
+}
+.vc_general.vc_cta3.vc_cta3-color-white.vc_cta3-style-flat{
+	color: #666667;
+}

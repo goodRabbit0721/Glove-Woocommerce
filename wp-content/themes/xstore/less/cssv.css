@@ -1,0 +1,161 @@
+/*
+Theme Name:     XStore
+Theme URI:      http://8theme.com/demo/xstore/
+Author:         8theme
+Author URI:     http://www.8theme.com
+Description:    ThemeForest Premium Theme
+Version:        2.3
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    xstore
+*/
+
+/*======================================================
+[Table of contents]
+
+1. FRAMEWORK STYLES
+	1.1 Base 
+		1.1.1 #body-framework
+		1.1.2 #buttons-framework
+		1.1.3 #inputs-framework
+		1.1.4 #links-text-framework
+		1.1.5 #mixins-framework
+		1.1.6 #tables-framework
+		1.1.7 #tiled-layout-framework
+		1.1.8 #titles-framework
+	/*__________________________________________________
+
+	1.2 Layout 
+		1.2.1 #footer-layout-framework
+		1.2.2 #header-framework
+	/*__________________________________________________
+
+	1.3 Blog 
+		1.3.1 #base-sidebar-framework
+		1.3.2 #blog-default-framework
+		1.3.3 #blog-types-framework
+		1.3.4 #single-post-framework
+	/*__________________________________________________
+
+	1.4 Portfolio 
+		1.4.1 #portfolio-framework
+	/*__________________________________________________
+
+	1.5 Modules / #modules-framework
+		1.5.1 Headers
+			1.5.1.1 #header-centered-framework
+			1.5.1.2 #header-inline-framework
+			1.5.1.3 #header-top-menu-framework
+			1.5.1.4 #header-transparent-framework
+			/*____________________________________
+
+		1.5.2 #404-page-framework
+		1.5.3 #back-to-top-framework
+		1.5.4 #banners-framework
+		1.5.5 #bbpress-framework
+		1.5.6 #blank-page-framework
+		1.5.7 #call-to-action-framework
+		1.5.8 #contact-form-framework
+		1.5.9 #emodal-framework
+		1.5.10 #et-tooltip-framework
+		1.5.11 #etheme-popup-framework
+		1.5.12 #fixed-header-framework
+		1.5.13 #header-search-framework
+		1.5.14 #icon-boxes-framework
+		1.5.15 #image-gallery-framework
+		1.5.16 #instagram-framework
+		1.5.17 #list-elements-framework
+		1.5.18 #look-book-framework
+		1.5.19 #magnific-popup-framework
+		1.5.20 #main-menu-framework
+		1.5.21 #mega-menu-framework
+		1.5.22 #owl-carousel-framework
+		1.5.23 #page-headings-framework
+		1.5.24 #post-carousel-framework
+		1.5.25 #post-grid-framework
+		1.5.26 #post-slider-framework
+		1.5.27 #price-tables-framework
+		1.5.28 #register-login-framework
+		1.5.29 #social-icons-framework
+		1.5.30 #sxy-zoom-framework
+		1.5.31 #tabs-framework
+		1.5.32 #testimonials-framework
+		1.5.33 #toggles-framework
+		1.5.34 #top-bar-framework
+		1.5.35 #twitter-framework
+		/*_______________________________________
+
+2. THEME STYLES
+	2.1 Base
+		2.1.1 #body-theme
+		2.1.2 #buttons-theme
+		2.1.3 #headings-theme
+		2.1.4 #helpers-theme
+		2.1.5 #inputs-theme
+		2.1.6 #links-text-theme
+		2.1.7 #mixins-theme
+		2.1.8 #titles-theme
+	/*___________________________________________
+
+	2.2 Layout
+		2.2.1 #footer-layout-theme
+		2.2.2 #header-theme
+		2.2.2 #tiled-layout-theme
+	/*___________________________________________
+
+	2.3 Blog
+		2.3.1 #base-sidebar-theme
+		2.3.2 #blog-default-theme
+		2.3.3 #blog-types-theme
+		2.3.4 #single-post-theme
+	/*___________________________________________
+
+	2.4 Portfolio
+		2.4.1 #portfolio-theme
+	/*___________________________________________
+
+	2.5 Modules
+		2.5.1 Headers
+			2.5.1.1 #header-centered-theme
+			2.5.1.2 #header-inline-theme
+			2.5.1.3 #header-top-menu-theme
+			2.5.1.4 #header-transparent-theme
+			/*____________________________________
+
+		2.5.2 #404-page-theme
+		2.5.3 #back-to-top-theme
+		2.5.4 #banners-theme
+		2.5.5 #bbpress-theme
+		2.5.6 #blank-page-theme
+		2.5.7 #call-to-action-theme
+		2.5.8 #dropcap-theme
+		2.5.9 #emodal-theme
+		2.5.10 #et-tooltip-theme
+		2.5.11 #etheme-popup-theme
+		2.5.12 #fixed-header-theme
+		2.5.13 #header-search-theme
+		2.5.14 #icon-boxes-theme
+		2.5.15 #image-gallery-theme
+		2.5.16 #instagram-theme
+		2.5.17 #list-elements-theme
+		2.5.18 #look-book-theme
+		2.5.19 #magnific-popup-theme
+		2.5.20 #main-menu-theme
+		2.5.21 #mega-menu-theme
+		2.5.22 #owl-carousel-theme
+		2.5.23 #page-headings-theme
+		2.5.24 #post-carousel-theme
+		2.5.25 #post-grid-theme
+		2.5.26 #post-slider-theme
+		2.5.27 #price-tables-theme
+		2.5.28 #register-login-theme
+		2.5.29 #social-icons-theme
+		2.5.30 #sxy-zoom-theme
+		2.5.31 #tabs-theme
+		2.5.32 #testimonials-theme
+		2.5.33 #toggles-theme
+		2.5.34 #top-bar-theme
+		2.5.35 #twitter-theme
+		2.5.36 #alerts-theme
+
+-------------------------------------------------------------------*/

@@ -1,0 +1,9 @@
+/**
+ * Subscriptio Plugin Frontend RTL Styles
+ */
+.subscriptio_frontend_details_general {
+    float: right;
+}
+.subscriptio_frontend_details_shipping {
+    float: left;
+}

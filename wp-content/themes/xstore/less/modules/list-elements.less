@@ -1,0 +1,33 @@
+/*=====================================
+=            List Elements            =
+=====================================*/
+.list ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 15px;
+}
+.list li {
+	display: inline-block;
+}
+.list li:before {
+	content: "\f105";
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+.list.list-circle li:before {
+	content: "\f111";
+}
+.list.list-star li:before {
+	content: "\f005";
+}
+.list.list-square li:before {
+	content: "\f0c8";
+}
+.list.list-dash li:before {
+	content: "\f068";
+}
+
+
+/*-----  End of List Elements  ------*/
+

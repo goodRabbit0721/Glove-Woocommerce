@@ -1,0 +1,39 @@
+/**
+ * CSS style for WordPress admin dashboard.
+ * Don't change anything unless necessary
+ * 
+ */
+
+/* Smart Prodcut Metabox Images*/
+#smart-product-sortable li {
+	background: #fff;
+	border: 1px solid #999;
+	border-radius: 2px;
+	float: left;
+	margin: 5px;
+	padding: 4px;
+	cursor: move;
+}
+#smart-product-sortable li img {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+/* Shortcode examples */
+.threesixty-shortcodes td {
+	padding: 10px 0;
+}
+.threesixty-shortcodes h4 {
+	margin: 0;
+}
+
+/* Dashboard menu icon */
+#adminmenu #menu-posts-smart-product .menu-icon-post div.wp-menu-image {
+	background: url(../images/menu-icon-sprite.png) 0 -32px no-repeat transparent;
+}
+#adminmenu #menu-posts-smart-product .menu-icon-post:hover div.wp-menu-image, 
+#adminmenu #menu-posts-smart-product .menu-icon-post.wp-has-current-submenu div.wp-menu-image, 
+#adminmenu #menu-posts-smart-product .menu-icon-post.current div.wp-menu-image {
+	background-position: 0 0;
+}

@@ -1,0 +1,191 @@
+Version 2.3, 2 September 2016
+------------------------------------------------------------------------------------
+* Feature - Event Scheduler class replaced by a more reliable one
+* Feature - PayPal Express Checkout payment gateway extension
+* Feature - Payment details can now be captured for free trials
+* Feature - Tabbed navigation in My Account now supported
+* Feature - WPML compatibility
+* Feature - Partial RTL support
+* Fix - Wrong date set in some occasions when manually changing event dates
+* Fix - Wrong product quantities in multi-product renewal order
+* Fix - Renewal order item tax data missing
+* Fix - Downloadable product downloads issue
+* Fix - Issues related to subscription emails
+* Fix - Plain text email new line issue
+* Fix - Subscription emails always sent to admin even when set not to
+* Fix - Renewal orders not created due to fatal error on some setups
+* Fix - Multi-product subscription issues related to billing cycle lengths
+* Fix - Variable product subscription checkbox can't be unchecked
+* Fix - Date picker does not display arrows
+* Fix - Problems activating memberships based on multi-product subscriptions
+* Fix - Subscription items list only shows first subscription in emails
+* Fix - Cart is empty error when submitting manual payment for renewal order
+* Fix - Error displayed when searching subscriptions and transactions lists
+* Tweak - Better handling of order resuming and repeated failed payments
+* Tweak - Order again functionality now disabled on renewal orders
+* Tweak - Subscriptions list in My Account is now responsive
+* Tweak - Price suffix is no longer displayed when not needed
+* Tweak - Option to disable specific card types in Stripe settings
+* Tweak - Updated RightPress automatic updates class
+* Tweak - PayPal Adaptive Payments extension now deprecated
+* Tweak - Other minor bug fixes and improvements
+* Dev - New action hook subscriptio_created_renewal_order
+* Dev - New filter hook subscriptio_renewal_order_tax
+* Dev - New filter hook subscriptio_renewal_order_subtotal
+* Dev - New filter hook subscriptio_renewal_order_total
+* Dev - New filter hook subscriptio_renewal_order_line_subtotal
+* Dev - New filter hook subscriptio_renewal_order_line_subtotal_tax
+* Dev - New filter hook subscriptio_renewal_order_line_total
+* Dev - New filter hook subscriptio_renewal_order_line_tax
+
+Version 2.2.2, 28 February 2016
+------------------------------------------------------------------------------------
+* Fix - Order resuming issues (new order placed on top of unpaid one)
+* Fix - Payment due date prevents payments from being made earlier
+* Fix - Warning related to item meta in renewal orders
+* Tweak - Added function existence check for mb_detect_encoding
+* Tweak - Updated RightPress automatic updates class
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.2.1, 24 January 2016
+------------------------------------------------------------------------------------
+* Tweak - Updated automatic updates class
+* Dev - Added filter to disable sslverify (payments failing on misconfigured servers)
+
+Version 2.2, 4 January 2016
+------------------------------------------------------------------------------------
+* Feature - Plugin now supports automatic updates
+* Fix - Several issues with PayPal payment gateway resolved
+* Fix - PayPal logo is not displayed on checkout for PayPal payment gateway
+* Tweak - Stripe payment gateway now supports multiple languages
+* Tweak - Changed language file directory name from woocommerce to subscriptio
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.1.3, 9 November 2015
+------------------------------------------------------------------------------------
+* Fix - Non-unique taxonomy term slug issue
+* Fix - Problems with renewal order subtotal for subscriptions created prior to 2.0
+
+Version 2.1.2, 1 November 2015
+------------------------------------------------------------------------------------
+* Fix - Product object fatal error in WooCommerce 2.3
+* Fix - Subscription not created in multi-product mode
+* Tweak - Payment Due date now displayed on View Subscription page
+* Tweak - Better loading of styles/scripts for improved compatibility
+* Tweak - Better language file loading: WP_LANG_DIR . "/woocommerce/" now supported
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.1.1, 11 September 2015
+------------------------------------------------------------------------------------
+* Feature - Added error logging for PayPal Gateway for easier debugging
+* Fix - Trial notice appears for non-subscription products
+* Fix - PHP Notice displayed on product page for not logged in users in some cases
+* Tweak - Removed all instances of sslverify = false due to security concerns
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.1, 25 August 2015
+------------------------------------------------------------------------------------
+* Feature - Subscription trials can now be limited
+* Feature - A number of subscriptions per user can now be limited
+* Feature - Downloadable product access now blocked if subscription is inactive
+* Feature - Shop managers can now manually adjust scheduled subscription events
+* Feature - Option to display lowest absolute price for variations
+* Tweak - Subscription can now be cancelled if the initial order gets refunded
+* Tweak - Improved display of variation subscription products
+* Tweak - Improved compatibility with The Events Calendar
+* Tweak - Other minor bug fixes and improvements
+* Dev - New methods for developers to access data about subscribers
+
+Version 2.0.2, 11 June 2015
+------------------------------------------------------------------------------------
+* Feature - New options for controlling PayPal Gateway Preapproval operation
+* Fix - PayPal Gateway Preapproval operation issues
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.0.1, 26 May 2015
+------------------------------------------------------------------------------------
+* Fix - "Can't use method return value in write context" bug
+
+Version 2.0, 22 May 2015
+------------------------------------------------------------------------------------
+* Feature - PayPal payment gateway with support of automatic payments
+* Feature - Subscriptions can now have multiple subscription products
+* Feature - Pausing subscriptions can now be limited (count and duration)
+* Feature - Shipping on renewal orders can now be enabled/disabled
+* Feature - Method to prevent WooCommerce from cancelling renewal orders prematurely
+* Feature - Option to change "Add to Cart" label for subscription products
+* Fix - problems related to custom item/order meta data
+* Fix - Recurring amount double-multiply on change of quantity
+* Fix - Variable subscription product price formatting issues
+* Fix - Original price for discounted products is not displayed
+* Fix - Internationalization of dates on My Account page
+* Fix - Tax suffix display issues
+* Tweak - Updated Stripe API version
+* Tweak - Other minor bug fixes and improvements
+* Dev - New set of action hooks that run before subscription status change
+
+Version 1.0.10, 8 April 2015
+------------------------------------------------------------------------------------
+* Fix - Payment Due reminders not being sent in some cases
+* Fix - Problems with Stripe refunds for renewal orders
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.0.9, 9 March 2015
+------------------------------------------------------------------------------------
+* Feature - Added support for WooCommerce 2.2 style refunds
+* Fix - Issues with subscription price display including/excluding tax
+* Tweak - Stripe no longer issues refunds on order status change to cancelled and refunded
+* Tweak - Improved compatibility with WooCommerce 2.1+
+* Tweak - Removed support for WooCommerce 2.0
+
+Version 1.0.8, 2 March 2015
+------------------------------------------------------------------------------------
+* Tweak - Renewal orders with zero total are now automatically marked processing
+* Tweak - Improved compatibility with latest versions of WooCommerce
+
+Version 1.0.7, 3 February 2015
+------------------------------------------------------------------------------------
+* Fix - Stripe gateway error "Received unknown parameter: statement_description"
+* Fix - Typo in multiple email templates
+
+Version 1.0.6, 19 December 2014
+------------------------------------------------------------------------------------
+* Fix - New user accounts can't be created during checkout
+* Fix - Typo in get_time_zone function
+* Tweak - Improved compatibility with PHP 5.2
+* Tweak - Improved checkout page Javascript to handle empty billing fields gracefully
+
+Version 1.0.5, 3 December 2014
+------------------------------------------------------------------------------------
+* Fix - Subscription products can't be turned back to regular products
+* Fix - More frontend navigation issues when URL rewrite is used
+* Fix - Stripe extension prevents test transactions when SSL is off
+
+Version 1.0.4, 23 October 2014
+------------------------------------------------------------------------------------
+* Fix - PayPal payment cancellation results in fatal error
+* Fix - Subscription status not always set on checkout
+* Tweak - Improved handling of New Order, Processing and Completed emails for renewals
+* Tweak - Changed default renewal order payment status from on-hold to pending
+* Tweak - Improved compatibility with WooCommerce version 2.2 (order statuses)
+* Tweak - Improved compatibility with WooCommerce versions 2.0.X
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.0.3, 9 October 2014
+------------------------------------------------------------------------------------
+* Fix - New subscriptions fail because of shipping settings
+* Fix - Frontend navigation issues when URL rewrite is used for permalinks
+
+Version 1.0.2, 23 September 2014
+------------------------------------------------------------------------------------
+* Feature - Stripe payment gateway extension for automatic payments
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.0.1, 1 September 2014
+------------------------------------------------------------------------------------
+* Fix - "Can't use method return value in write context" bug
+* Tweak - Improved function that determines system's time zone
+
+Version 1.0, 30 August 2014
+------------------------------------------------------------------------------------
+* Initial release

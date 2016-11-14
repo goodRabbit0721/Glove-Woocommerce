@@ -1,0 +1,42 @@
+/* Infinite Scroll Admin Style */
+.clear { clear:both; }
+.button-primary.sb-btn { background:#152638; box-shadow:none; }
+h3.hndle { cursor:default !important; }
+.hndle span { cursor:pointer; }
+.postbox div.handlediv {  border-left:1px solid #E5E5E5; height:100%; padding-left:9px; }
+.postbox div.handlediv:hover { background:#f7f7f7; }
+#dashboard-widgets .meta-box-sortables { min-height:0; }
+#sbis-wrapper h2.title { background:#fff; box-shadow:0 1px 1px rgba(0, 0, 0, 0.04);	border:1px solid #e5e5e5; padding:10px !important;}
+#sb-postbox-container-right { float:right; }
+#sbis-wrapper h2.title a { margin-left:5px; }
+#sbis-wrapper h2.title img { float: left; margin: 0 10px 0 0; border-radius:3px; }
+#animate-img { float:right; border-radius:3px; }
+.form-row {	margin:5px 0; clear:both; float:left; width:100%; }
+.form-column { width:50%; float:left; }
+.form-row input[type=text], .form-row select { width:270px; }
+.form-row label { width:150px; float:left; margin-top:6px; }
+.field-wrapper { float:left; }
+.form-row textarea { width:100%; margin-top:5px; resize:vertical; height:100px; }
+.advanced-settings .field-wrapper { width:100%; }
+.ajax-loader { float:left; margin-left:20px; display:none; }
+.sb-button-group { position:absolute; top:11px; right:40px; }
+.sb-button-group a { font-weight:700; color:#152638; margin-left:5px; padding: 0 5px; cursor:pointer; }
+.sb-button-group a.delete { color:red; }
+.sb-button-group a:hover { background:#152638; color:#fff; border-radius: 3px; }
+.sb-button-group a.delete:hover { background:red; }
+.add-new-btn { width:200px; }
+.sb-message { background:#152638;color:#fff; padding:10px; position:fixed; right:0; top:40px; z-index:9999999; display:none; }
+.sb-message.fail { background:red; }
+.error, input.error { border-color:red; }
+#dashboard-widgets a.advanced-options-link { text-decoration:underline; cursor:pointer; }
+.advanced-options { display:none; }
+#import-export-json { display:none; }
+.popup-ajax-loader { background:url(../img/ajax-loader.gif) no-repeat center; }
+#import-box { text-align:center; }
+#import-box form { margin-top:10px; padding:10px; text-align:left; }
+#import-box form textarea { width:100%; clear:both; resize:vertical; margin-bottom:10px; height:100px; resize:none; }
+.important-notes li { list-style:disc; margin-left:20px; }
+.small-device-settings-box { display:none; }
+@media screen and (max-width: 767px) {
+	.form-column { width:100%; }
+}

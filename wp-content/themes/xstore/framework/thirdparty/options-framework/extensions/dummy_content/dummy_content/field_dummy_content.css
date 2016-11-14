@@ -1,0 +1,462 @@
+.etheme-import-info {
+    display: none;
+}
+
+.etheme-options-success,
+.etheme-imported-info,
+.etheme-import-info {
+    background: #1b98d8 url(images/icon1.png) no-repeat 30px 50%;
+    padding: 30px 30px 30px 170px;
+    border: 2px solid #1b98d8;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.etheme-imported-info {
+    background: #fff url(images/icon4.png) no-repeat 30px 50%;
+    border: 3px solid #78c20f;
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+.etheme-options-success {
+    background: #78c20f url(images/icon2.png) no-repeat 30px 50%;
+    border: 3px solid #78c20f;
+    min-height: 150px;
+}
+
+.etheme-options-success a {
+    color: white;
+}
+
+.etheme-imported-info strong,
+.etheme-import-info strong {
+    font-size: 20px;
+}
+
+.etheme-imported-info p,
+.etheme-import-info p {
+    opacity:0.7;
+    line-height: 1.8;
+    margin:20px 0;
+}
+
+.etheme-import-section p {
+    font-size: 14px;
+}
+
+.etheme-options-info {
+    background: #f7f7f7;
+    border: 2px solid #1b98d8;
+    padding:20px;
+}
+
+.etheme-options-info.info-red {
+    margin-top: 20px;
+    border: 2px solid #d64646;
+}
+
+.etheme-import-section .etheme-import-info .et-button {
+    background-color:#78c20f;
+}
+
+.etheme-import-section .etheme-import-info .et-button:hover {
+    background-color: #60a30f;
+}
+
+.no-default-imported .etheme-import-info {
+    display: block;
+}
+
+.no-default-imported .etheme-imported-info {
+    display: none;
+}
+
+
+.button.button-import-default {
+    padding: 15px 30px;
+    height: 58px;
+    background: #1F80AF;
+    border: 1px solid #1F80B0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.etheme-import-section {
+    position: relative;
+}
+
+.etheme-import-section .loading-info {
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 10;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+    padding-top:100px;
+}
+
+.etheme-import-section .loading-info h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.etheme-import-section.import-process .loading-info  {
+    display: block
+}
+
+.etheme-import-section.import-process .install-base-first {
+    display: none;
+}
+
+.et-loader {
+    position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+.et-loader svg {
+  width: 70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 25%;
+  width: 200px;
+}
+.et-loader svg .outline {
+  stroke: #d64444;
+  stroke-dasharray: 2.42777px, 242.77666px;
+  stroke-dashoffset: 0;
+  -webkit-animation: anim 1.6s linear infinite;
+  animation: anim 1.6s linear infinite;
+}
+.et-loader svg .outline-bg {
+  opacity: 0.5;
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes anim {
+  12.5% {
+    stroke-dasharray: 33.98873px, 242.77666px;
+    stroke-dashoffset: -26.70543px;
+  }
+  43.75% {
+    stroke-dasharray: 84.97183px, 242.77666px;
+    stroke-dashoffset: -84.97183px;
+  }
+  100% {
+    stroke-dasharray: 2.42777px, 242.77666px;
+    stroke-dashoffset: -240.34889px;
+  }
+}
+@keyframes anim {
+  12.5% {
+    stroke-dasharray: 33.98873px, 242.77666px;
+    stroke-dashoffset: -26.70543px;
+  }
+  43.75% {
+    stroke-dasharray: 84.97183px, 242.77666px;
+    stroke-dashoffset: -84.97183px;
+  }
+  100% {
+    stroke-dasharray: 2.42777px, 242.77666px;
+    stroke-dashoffset: -240.34889px;
+  }
+}
+
+.etheme-import-section.import-process button,
+.etheme-import-section.import-process a {
+    cursor: default;
+}
+
+.etheme-import-section .et-button {
+    text-align: center;
+    background: #2799D5;
+    color: white;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 8px 12px;
+}
+
+.etheme-import-section .et-button:hover {
+    background: #1276AB;
+    color: white;
+}
+
+.import-additional-pages {
+    margin-bottom: 50px;
+}
+
+.import-additional-pages .page-preview {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+
+.import-additional-pages .page-preview .preview-page-button {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.import-additional-pages .page-preview .preview-page-button:hover {
+    background: rgba(0,0,0,1);
+}
+
+.import-additional-pages .page-preview img {
+    display: inherit;
+    padding-top: 4.3%;
+    background: url(images/browser.png) no-repeat top;
+}
+
+.import-additional-pages .page-selector {
+    display: inline-block;
+    width: 320px;
+    vertical-align: middle;
+}
+
+.import-additional-pages .page-selector select {
+    display: inline-block;
+    width: 220px;
+    border-radius: 0;
+    box-shadow: 0 0 0 #efefef;
+    height: 34px;
+    line-height: 34px;
+    margin: 0;
+}
+
+.import-additional-pages .page-selector .et-button {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+}
+
+.import-demos {
+    text-align: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.import-demos .version-preview {
+    margin: 0 30px 30px 0;
+    position: relative;
+}
+
+.import-demos .version-screenshot {
+    position: relative;
+    /*background: rgba(0,0,0,1);*/
+}
+
+.installed-icon {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    background: url(images/icon3.png) no-repeat top center;
+    color: #78c20f;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 160px;
+    padding: 50px 12px 0 0;
+}
+
+.version-imported .installed-icon {
+    visibility: visible;
+    opacity: 1;
+}
+
+.version-imported:not(.just-imported):hover .installed-icon {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.import-demos .version-screenshot .button-preview {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.import-demos .version-screenshot .button-preview:hover {
+    background: rgba(0,0,0, 1);
+}
+
+.version-preview:hover .button-import-version,
+.import-demos .version-preview:hover .version-screenshot .button-preview {
+    opacity:1;
+    visibility: visible;
+}
+
+
+.import-demos .version-screenshot img {
+    display: inherit;
+    padding-top: 4.3%;
+    background: url(images/browser.png) no-repeat top;
+    background-size: contain;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.import-demos .version-preview.version-imported img,
+.import-demos .version-preview:hover img {
+    opacity: 0.3;
+}
+
+.import-demos .button-import-version {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.import-demos .version-title {
+    display: block;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.install-base-first {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 20;
+    top: 180px;
+    left:50%;
+    width:250px;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-size: contain;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.install-base-first h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.install-base-first p {
+    font-size: 16px;
+}
+
+.import-additional-pages,
+.import-demos-wrapper {
+    position: relative;
+}
+
+.no-default-imported .import-demos-wrapper:hover .install-base-first {
+    opacity:1;
+    visibility: visible;
+}
+
+.no-default-imported .import-additional-pages a,
+.no-default-imported .import-additional-pages select,
+.no-default-imported .import-demos-wrapper a {
+    pointer-events: none;
+}
+
+.no-default-imported .import-additional-pages:before,
+.no-default-imported .import-demos-wrapper:before {
+    content:'';
+    display: block;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: 10;
+    background: rgba(252, 252, 252,0.7);
+}
+

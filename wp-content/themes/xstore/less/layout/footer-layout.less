@@ -1,0 +1,260 @@
+/*=====================================
+=            Footer Layout            =
+=====================================*/
+.footer {
+	padding: 4em 0 2.86em;
+	line-height: 1.6;
+	font-size: 1.07rem;
+	background-color: #262626;
+	.container{
+		.widget-container{
+			margin-bottom: 0;
+		}
+	}
+
+	.footer-widget {
+		margin-bottom: 2.14em;
+		p{
+			color: #8a8a8a;
+		}
+	}
+
+	.widget-title {
+		color: white;
+		font-size: 1.07rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 1.88em;
+	}
+
+	.menu {
+		list-style: none;
+		margin-top: 0;
+		padding-left: 0;
+		li{
+			&:first-child{
+				a{
+					padding-top: 0;
+				}
+			}
+			margin-bottom: 0;
+			line-height: 1.6;
+		}
+		a {
+			padding: 2px 0;
+			color: @mainColor;
+			font-size: 1.07rem;
+			display: block;
+			&:hover{
+				color: #fff;
+			}
+		}
+	}
+
+	mark {
+		background-color: transparent;
+		color: #bbb;
+		a{
+			color: #bbbbbb;
+			&:hover{
+				color: #fff;
+			}
+		}
+	}
+	.footer-widgets{
+		ul li{
+			list-style: none;
+		}
+	}
+	.tagcloud a{
+		border-color: #383838;
+	}
+	.recent-posts-widget .post-date{
+		color: #8a8a8a;
+	}
+	.menu-social-icons{
+		li{
+			a{
+				padding-left: 8px;
+				padding-right: 8px;
+			}
+		}
+	}
+}
+
+.prefooter .product_list_widget li{
+	font-size:1.14rem;
+}
+@media only screen and (max-width: 768px){
+	.prefooter-subscribe{
+		.vc_column-inner{
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+	}
+}
+.footer-bottom {
+	padding: 3.57rem 0; 
+	background-color: #242424;
+	color: @footerColor;
+	a { 
+		color: @footerLinksColor;
+	}
+	img{
+		.transition();
+		&:hover{
+			opacity: 0.7;
+		}
+	}
+	.footer-copyrights-right {
+		text-align: right;
+	}
+}
+.footer,
+.prefooter{
+	.wpb_widgetised_column_heading{
+		font-size: 1.14rem;
+		text-transform: uppercase;
+		font-weight: 900;
+		letter-spacing: 1px;
+		margin-bottom: 1.56em;
+	}
+}
+/* Footer Color Schemes */
+
+.footer.text-color-light{
+	.widget-title,
+	.wpb_widgetised_column_heading{
+		color: #fff;
+		border-color:#383838;
+		text-transform: uppercase;
+	}
+	h1, h2, h3, h4, h5, h6, a,
+	.etheme_widget_recent_entries .post-widget-item .media-heading a{
+		color: #fff;
+	}
+	.menu a:hover,
+	a:hover,.etheme_widget_recent_entries .post-widget-item .media-heading a:hover{
+		color: #8a8a8a;
+	}
+	.widget.null-instagram-feed{
+		.widgettitle{
+			background-color: #383838;
+			border-bottom: none;
+		}
+	}
+	.widget-container.etheme_widget_recent_entries .post-widget-item{
+		border-bottom: 1px solid #383838;
+	}
+	.wpb_widgetised_column{
+		.null-instagram-feed{
+			.widget-title{
+				background-color: transparent;
+				color: #fff;
+				border-bottom: 1px solid #383838;
+			}
+		}
+	}
+	.widget-container{
+		ul li{
+			border-color:#383838;
+			a{
+				color: #fff;
+			}
+			.children{
+				border-color: #383838;
+			}
+		}
+	}
+	.tagcloud a,
+	blockquote.testimonials-text{
+		background-color: #383838;
+		color: #fff;
+	}
+	blockquote.testimonials-text{
+		border-color:#383838;
+		&:after,
+		&:before{
+			border-top-color:#383838
+		}
+	}
+	.testimonials-slider .owl-controls{
+		background-color: transparent;
+		.owl-buttons{
+			display: none;
+		}
+	}
+	.widget_search input[type="text"]{
+		border-color: #383838;
+		&:focus{
+			border-color: #808080;
+		}
+	}
+}
+.footer.text-color-dark{
+
+	h1, h2, h3, h4, h5, h6, a, .widget-title{
+		color: #1a1a1a;
+	}
+	a:hover{
+		color: #808080;
+	}
+	.tagcloud a:hover{
+		color: #1a1a1a;
+		border-color: #1a1a1a;
+		background-color: transparent;
+	}
+	.wpb_widgetised_column{
+		.null-instagram-feed{
+			.widget-title{
+				background-color: transparent;
+			}
+		}
+	}
+	.testimonials-slider .owl-controls{
+		background-color: transparent;
+		.owl-buttons{
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width:768px){
+	.footer {
+		padding: 3.57em 0 2.14em;
+	}
+	.footer-bottom {
+		.footer-copyrights {
+			text-align: center;
+		}
+		.footer-copyrights-right {
+			margin-top: 1.43em;
+			text-align: center;
+		}
+	}
+}
+@media only screen and (max-width:768px){
+	.mob-center{
+		text-align: center !important;
+		.et-follow-buttons{
+			text-align: center !important;
+		}
+	}
+	.footer-links-drinks a{display: block;margin: 10px 0 !important;text-align: center;}
+}
+
+@media only screen and (max-width:992px) and (min-width:480px){
+	.footer-widgets.col-md-3{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width:480px){
+	.envato-purchase-popup{
+		max-width:100% !important;
+		right: 0 !important;
+	}
+	body #intercom-container .intercom-messenger-frame{right:0 !important;}
+}
+/*-----  End of Footer Layout  ------*/
+

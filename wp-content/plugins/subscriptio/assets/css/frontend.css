@@ -1,0 +1,22 @@
+/**
+ * Subscriptio Plugin Frontend Styles
+ */
+.subscriptio_frontend_details {
+    width: 100%;
+    overflow: hidden;
+}
+.subscriptio_frontend_details_general {
+    float: left;
+    width: 48%;
+}
+.subscriptio_frontend_details_shipping {
+    float: right;
+    width: 48%;
+}
+.subscriptio_frontend_details .subscriptio_frontend_details_general h2,
+.subscriptio_frontend_details .subscriptio_frontend_details_shipping h2 {
+    margin-top: 0;
+}
+div.woocommerce a.subscriptio_button {
+    margin: 3px;
+}

@@ -1,0 +1,126 @@
+/*====================================
+=            Base Product            =
+====================================*/
+/* Price for Woocommerce */
+
+.price {
+	font-weight: bold;
+	ins {
+		padding-left: 3px;
+		text-decoration: none;
+		font-weight: @bolder;
+	}
+}
+
+/* Sale label */ 
+.label-product {
+	text-align: center;
+	z-index: 1;
+	>div {
+		position: absolute;
+		z-index: 100;
+	}
+}
+
+.type-label-2 {
+	top:-8px;
+	left: -8px;
+	color: white;
+	text-transform: uppercase;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	padding: 10px;
+	border-radius: 50%;
+	box-sizing: content-box;
+	font-weight: bold;
+}
+
+.star-rating {
+	font-size: 0;
+	width: 78px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 auto 15px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	&:before {
+		font-size: 14px;
+		letter-spacing: 3px;
+		content: '\f006\f006\f006\f006\f006';
+		font-family: 'FontAwesome';
+		display: block;
+	}
+}
+.star-rating span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	overflow: hidden;
+	&:before {
+		font-size: 14px;
+		letter-spacing: 3px;
+		content: '\f005\f005\f005\f005\f005';
+		font-family: 'FontAwesome';
+		display: block;
+		color:red;
+	}
+}
+
+.wcpv-vendor-logo{
+	text-align: center;
+}
+.wcpv-vendor-logo + small{
+	text-align: center;
+}
+.wcpv-star-rating{
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block;
+}
+.wcpv-vendor-profile{
+	text-align: center;
+}
+
+// Infiniti scroll
+.sb-infinite-scroll-load-more{
+	position: absolute;
+	left: 50%;
+	transform:translateX(-50%);
+}
+.sb-infinite-scroll-load-more:not(.finished) a{
+	display: inline-block;
+    border: 1px solid #f2f2f2;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 0.79rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0 1.95em;
+    height: 2.642rem;
+    line-height: 2.5rem;
+    background-color: #f2f2f2;
+    transition: all 0.2s linear;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+}
+
+.sb-infinite-scroll-load-more.finished a {
+    border: none;
+    color: #999999;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:768px){
+	.sb-infinite-scroll-load-more{
+		position: static;
+		transform:none;
+	}
+}
+/*-----  End of Base Product  ------*/
+

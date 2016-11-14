@@ -1,0 +1,48 @@
+.woof_sid_auto_shortcode .woof_show_text_search{
+    /*width: 100% !important;*/
+}
+
+.woof_text_search_container{
+    margin: 0 0 9px 0;
+}
+
+.woof_text_search_container.woof_container{
+    /*width: 100%;*/
+    /*margin-top: 5px;*/
+}
+
+.woof_text_search_container input[type='search']{
+    padding: 5px !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.woof_text_search_container .woof_text_search_go{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    background: url("../img/eye-icon2.png");
+    /*margin: -25px 83%;*/
+    display: none;
+    border: none !important;
+    text-decoration: none !important;
+    z-index: 999;
+    position: relative;
+}
+
+table.woof_text_table{
+    width: 100%;
+}
+
+.woof_text_search_container .woof_container_inner{
+    width: auto !important;
+}
+
+
+@-moz-document url-prefix() {
+    .woof_text_search_container .woof_text_search_go{
+
+    }
+}
+

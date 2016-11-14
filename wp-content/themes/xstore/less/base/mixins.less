@@ -1,0 +1,94 @@
+
+.transition(@property: all, @duration: 0.2s, @timing: linear) {
+  -webkit-transition: @arguments;
+     -moz-transition: @arguments;
+       -o-transition: @arguments;
+          transition: @arguments;
+}
+
+.box-sizing(@box-sizing: border-box){
+	-webkit-box-sizing: @box-sizing;
+	   -moz-box-sizing: @box-sizing;
+	        box-sizing: @box-sizing;
+}
+
+.link-bottom(@color) {
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		height: 2px !important;
+		background-color: @color;
+	}
+}
+
+.flex-center-text() {
+    /* Center text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.backface(){
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@-moz-document url-prefix() {
+  /* Firefox doesn't respect max-width in certain situations */
+  img { width: 100%; max-width: -moz-max-content; }
+}
+.view-mask-only-icons(){
+  .product-view-mask .footer-product{
+    left:2.5em;
+    right: 2.5em;
+    height: 3.22rem !important;
+    .show-quickly,
+    .yith-wcwl-add-to-wishlist{
+      height: 3.22rem !important;
+      &:before{
+        line-height: 46px !important;
+      }
+    }
+
+    .yith-wcwl-add-to-wishlist a{
+      height: 3.22rem !important;
+    }
+  }
+  [class*="wcpv_product_vendors-"].product-view-mask .footer-product{
+    .yith-wcwl-add-button a.add_to_wishlist:before,
+    .yith-wcwl-wishlistexistsbrowse a:before,
+    .yith-wcwl-wishlistaddedbrowse a:before{
+      line-height: 1 !important;
+    }
+  }
+  .product-view-mask .footer-product .button{
+    font-size: 0;
+    display: block;
+    &:before{
+      font-size:14px;
+    }
+  }
+  .product-view-mask .footer-product .button:before{
+    top: 12px;
+    left: 6px;
+    font-size: 25px;
+    margin-right: 0;
+    margin-left: 0;
+
+  }
+  .wcpv-sold-by-loop{
+    display: none;
+  }
+}

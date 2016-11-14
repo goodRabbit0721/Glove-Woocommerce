@@ -1,0 +1,121 @@
+/*===================================
+=            ET- Tooltip            =
+===================================*/
+.et-tooltip{
+	position: relative;
+	cursor: pointer;
+	>div{
+		position: absolute;
+		visibility: hidden;
+		z-index: -1;
+		white-space: normal;
+		&:before{
+			content: "";
+			right: -30px;
+			margin-top: -13px;
+			top: 50%;
+			position: absolute;
+		}
+		&:after{
+			content: "";
+			top: 50%;
+			position: absolute;
+		}
+		>div{
+			max-width: 100% !important;
+		}
+	}
+	&:hover{
+		&:before{
+			content: "";
+			position: absolute;
+		}
+		>div{
+			z-index: 1;
+			visibility: visible;
+		}
+	}
+	&.from-right{
+		>div{
+			left: auto;
+			right: -300px;
+			&:before{
+				right: auto;
+				left:-30px;
+			}
+			&:after{
+				right: auto;
+				left:-32px;
+			}
+		}
+		&:hover{
+			>div{
+				right: -270px;
+			}
+		}
+		&:before{
+			right: -96px;
+			left: auto;
+			top: -70px;
+		}
+	}
+	&.from-top{
+		>div{
+			left: auto;
+			right: auto;
+			top:-150px;
+			margin-left: 6px;
+			&:before{
+				right: auto;
+				left: 50%;
+				bottom: -30px;
+				top:auto;
+			}
+			&:after{
+				right: auto;
+				left: 50%;
+				top:auto;
+			}
+		}
+		&:hover{
+			>div{
+				top: -185px;
+				right: auto;
+			}
+		}
+		&:before{
+			width: 100px;
+			height: 90px;
+			left: -50px;
+			top: -36px;
+		}
+	}
+	&.from-bottom{
+		>div{
+			left: auto;
+			right: auto;
+			top:100px;
+			margin-left: 6px;  
+			&:before{
+				right: auto;
+				left: 50%;
+				top: -17px;
+			}
+			&:after{
+				right: auto;
+				left: 50%;
+				top: -18px;
+			}
+		}
+		&:before{
+			width: 100px;
+			height: 90px;
+			left: -50px;
+			top: -36px;
+		}
+	}
+}
+
+
+/*-----  End of ET- Tooltip  ------*/
+

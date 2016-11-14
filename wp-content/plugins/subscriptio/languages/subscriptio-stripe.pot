@@ -1,0 +1,444 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Subscriptio Stripe\n"
+"POT-Creation-Date: 2016-09-02 23:51+0300\n"
+"PO-Revision-Date: 2015-09-11 18:19+0300\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../includes/classes/gateways/stripe\n"
+"X-Poedit-SearchPath-1: ../templates/gateways/stripe\n"
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-account.class.php:143
+msgid "Credit card deleted successfully."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-account.class.php:188
+msgid "Default card changed successfully."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:37
+msgid "Stripe by Subscriptio"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:38
+#, php-format
+msgid ""
+"Stripe requires all communications to be secured with TLS 1.2, make sure "
+"that your server <a href=\"%s\">supports it</a>."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:92
+msgid "Subscriptio Stripe payment gateway requires WooCommerce 2.1 or later."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:97
+msgid ""
+"Subscriptio Stripe payment gateway requires full SSL support and enforcement "
+"during Checkout. Only test mode will work until this is solved."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:102
+msgid ""
+"Subscriptio Stripe payment gateway requires Stripe Secret Key to be set."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:107
+msgid ""
+"Subscriptio Stripe payment gateway requires Stripe Publishable Key to be set."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:155
+msgid "Card is not selected."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:155
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:163
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:190
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:205
+msgid "We have not charged your card. Please try again."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:163
+msgid "Order not found."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:171
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-subscriptions.class.php:58
+msgid "Order"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:190
+msgid "Authorization token not set."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:234
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-order.class.php:81
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-subscriptions.class.php:86
+#, php-format
+msgid "Stripe charge %s captured."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:240
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-subscriptions.class.php:92
+#, php-format
+msgid ""
+"Stripe charge %s authorized and will be charged as soon as you start "
+"processing this order. Authorization will expire in 7 days."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:267
+msgid "Stripe details saved for future use."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:308
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:356
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:528
+msgid "Connection error."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:311
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:359
+msgid "Unable to add a new card."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:319
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:367
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:421
+#, php-format
+msgid "Unable to use a card with \"%s\" funding type. "
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:409
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:416
+msgid "Such card does not exist."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:521
+msgid "We were not able to connect to the payment gateway. Please try again."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:531
+msgid "Payment gateway error:"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:600
+msgid "Response body empty."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:684
+msgid "Pay Now"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:690
+msgid "The card number is incorrect."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:691
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:692
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:693
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:694
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:695
+msgid "The card has expired."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:696
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:697
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:698
+msgid "The card was declined."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:699
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:700
+msgid "An error occurred while processing the card."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:701
+msgid ""
+"An error occurred due to requests hitting the API too quickly. Please let us "
+"know if you're consistently running into this error."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:745
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:747
+msgid "Enable Stripe payment gateway"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:751
+msgid "Test Mode"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:753
+msgid "Enable test & debug mode"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:757
+msgid "Capture Immediately"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:759
+msgid "Capture the charge immediately"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:760
+msgid ""
+"If unchecked, an authorization is issued at the time of purchase but the "
+"charge itself is captured when you start processing the order. Uncaptured "
+"charges expire in 7 days."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:764
+msgid "Title"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:766
+msgid "The title which the user sees during checkout."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:767
+msgid "Credit Card - Stripe"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:770
+msgid "Description"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:772
+msgid "The description which the user sees during checkout."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:773
+msgid "Pay Securely via Stripe"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:776
+msgid "Checkout Style"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:778
+msgid "Control how credit card details fields appear on your page."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:781
+msgid "Inline"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:782
+msgid "Modal"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:786
+msgid "Restricted type of cards"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:788
+msgid "Restrict the use of some card funding type."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:791
+msgid "None"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:792
+msgid "Debit"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:793
+msgid "Credit"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:794
+msgid "Prepaid"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:795
+msgid "Unknown"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:799
+msgid "Checkout Image"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:801
+msgid ""
+"Stripe Checkout modal allows custom seller image to be displayed. Enter your "
+"custom 128x128 px image URL here (should be hosted on a secure location)."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:805
+msgid "Test Secret Key"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:807
+msgid ""
+"Test Secret Key from your Stripe Account (under Account Settings > API Keys)."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:811
+msgid "Test Publishable Key"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:813
+msgid "Test Publishable Key from your Stripe Account."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:817
+msgid "Live Secret Key"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:819
+msgid "Live Secret Key from your Stripe Account."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:823
+msgid "Live Publishable Key"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:825
+msgid "Live Publishable Key from your Stripe Account."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:854
+msgid "Card"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:856
+msgid "ending with"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:856
+msgid "expires"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:859
+msgid "New Credit Card"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:918
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:924
+msgid "Stripe refund failed."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-gateway.class.php:929
+#, php-format
+msgid "%s of Stripe charge %s refunded."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-order.class.php:70
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-order.class.php:76
+msgid "Failed capturing previously authorized Stripe payment."
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-subscriptions.class.php:58
+msgid "Subscription"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-subscriptions.class.php:64
+#, php-format
+msgid "Subscr %s"
+msgstr ""
+
+#: ../includes/classes/gateways/stripe/subscriptio-stripe-subscriptions.class.php:71
+msgid "Automatic subscription payment failed (Stripe)."
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:29
+msgid "TEST MODE"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:30
+#, php-format
+msgid "Click %shere%s for a list of test card numbers."
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:56
+msgid "Card Number"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:57
+msgid "•••• •••• •••• ••••"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:61
+#: ../templates/gateways/stripe/credit-card-list.php:24
+msgid "Expires"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:63
+msgid "Month"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:69
+msgid "Year"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:77
+msgid "Card Code"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-form.php:78
+msgid "CVC"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-list.php:14
+msgid "Linked Credit Cards"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-list.php:22
+msgid "Type"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-list.php:23
+msgid "Ending with"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-list.php:25
+msgid "Default"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-list.php:38
+msgid "Yes"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-list.php:40
+msgid "Delete"
+msgstr ""
+
+#: ../templates/gateways/stripe/credit-card-list.php:42
+msgid "Make Default"
+msgstr ""

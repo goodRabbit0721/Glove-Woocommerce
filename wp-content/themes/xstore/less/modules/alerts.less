@@ -1,0 +1,101 @@
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+	padding: 2em 1.43em 2em 4.5em;
+	margin: 0 0 1.43em;
+	position: relative;
+	background-color: #fff;
+	border: none;
+	color: #a5a5a5;
+	width: auto;
+	font-size:1.14rem;
+	word-wrap: break-word;
+	font-weight:400;
+	line-height: 2.57;
+	display: inline-block;
+	border:1px solid @borderColor;
+	border-top:4px solid #7aa33f;
+	width: 100%;
+	strong{
+		color: #000;
+	}
+	&:before {
+		font-family: "FontAwesome";
+		content: "\f129";
+		font-size: 16px;
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 2em;
+		line-height: 21px;
+		color: #fff;
+		width:22px;
+		height:22px;
+		text-align: center;
+		background-color: #7aa33f;
+		border-radius:100%;
+	}
+
+	.button {
+		float: right;
+	}
+	li {
+		list-style: none outside !important;
+		padding-left: 0 !important;
+		margin-left: 0 !important;
+		margin-bottom: 0;
+		font-weight:400 !important;
+	}
+	a:not(.button){
+		color: #000;
+		font-weight:500;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+.woocommerce-error{
+	padding-left:5.35em !important;
+	color: #b2b2b2;
+	border-top-color: #b63231;
+	&:before{
+		background-color: #b63231;
+		color: #fff;
+		content:"\f12a";
+	}
+	strong{
+		text-transform: uppercase;
+		font-size:1rem;
+	}
+}
+.woocommerce-info{
+	border-top-color: #428ebf;
+	&:before{
+		background-color: #428ebf;
+		content:"\f129";
+	}
+	a{
+		color: #000;
+	}
+}
+.woocommerce-message{
+	border-top-color: #7aa33f;
+	&:before{
+		background-color: #7aa33f;
+		content:"\f00c";
+	}
+}
+@media only screen and(max-width: 480px){
+	.woocommerce-message,
+	.woocommerce-error,
+	.woocommerce-info{
+		line-height:1.5;
+		font-size:1rem;
+		padding-left: 4em;
+		&:before{
+			left:1em;
+		}
+	}
+}

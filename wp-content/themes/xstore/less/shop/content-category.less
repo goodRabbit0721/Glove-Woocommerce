@@ -1,0 +1,279 @@
+/*===================================================
+=            Content for categories grid            =
+===================================================*/
+
+.category-grid {
+	position: relative;
+	margin-bottom: 30px;
+	a{
+		overflow: hidden;
+		background-color: #fff;
+		display: inline-block;
+	}
+	.categories-mask {
+		position: absolute;
+		left:0;
+		right:0;
+		text-align: center;
+		text-transform: uppercase;
+		top:50%;
+		padding: 0 22px;
+		transform: translateY(-50%);
+		color: white;
+		span{
+			display: none;
+		}
+		span.more{
+			display: none;
+			font-size: 0.86rem;
+			font-weight: bold;
+			letter-spacing: 0.04em;
+		}
+		h4 {
+			color: white;
+			text-transform: uppercase;
+			font-size: 1.71rem;
+			font-weight: @bolder;
+
+			margin: 0.3em 0;
+		}
+		.count{
+			background-color: transparent;
+			color: #fff;
+			margin-bottom: 5px;
+			display: inline-block;
+		}
+	}
+	img{
+		.transition();
+		backface-visibility:hidden;
+	}
+	&:hover{
+		img{transform: scale(1.15);}
+
+	}
+}
+
+.category-grid{
+	&.text-color-dark {
+		h4{
+			color: black;
+		}
+		.count{
+			color: #a4a4a4;
+		}
+		.categories-mask{
+			color: #000;
+		}
+	}
+
+	&.text-color-white {
+		.categories-mask,
+		h4 {
+			color: white;
+		}
+		&.style-with-bg {
+			.categories-mask {
+				background: black;
+			}
+		}
+	}
+
+	&.valign-top {
+		.categories-mask {
+			top: 1.43em;
+			transform: translateY(0);
+		}
+	}
+
+	&.valign-bottom {
+		.categories-mask {
+			bottom: 1.43em;
+			top: auto;
+			transform: translateY(0);
+		}
+	}
+
+
+
+
+	&.style-with-bg {
+		.categories-mask {
+			left: 2.43em;
+			right: 2.43em;
+			padding: 1.43em;
+			background: white;
+		}
+	}
+	&.style-default,
+	&.style-with-bg{
+		&:hover{
+			img{
+				transform:none;
+				opacity: 0.8;
+			}
+		}
+	}
+	&.style-diagonal{
+		overflow: hidden;
+		img{
+			transition: all 0.9s;
+			.backface();
+		}
+		&:before{
+
+			position: absolute;
+			top: 0;
+			left: 50%;
+			width: 120%;
+			height: 100px;
+			background: rgba(255, 255, 255, 0.3);
+			content: '';
+			transition: transform 0.9s;
+			z-index: 1;
+			transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -150%, 0);
+			backface-visibility: hidden;
+		}
+		&:hover{
+			&:before{
+				transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,400%,0);
+			}
+			img{
+				transform: scale(1.15);
+			}
+		}
+
+	}
+	&.style-classic{
+		.categories-mask{
+			position: static;
+			transform:none;
+			text-align: center !important;
+			color: #1e1e1e;
+			margin-top: 20px;
+			h4{
+				color: #1e1e1e;
+				.transition();
+				&:hover{
+					color: #8a8a8a;
+				}
+			}
+			.count{
+				color: #a4a4a4;
+				&:hover{
+					color: #8a8a8a;
+				}
+			}
+		}
+		&:hover img{
+			opacity: 0.8;
+		    transform: none;
+		}
+		&.text-color-white{
+			.categories-mask{
+				color: #fff;
+				&:hover{
+					color: #8a8a8a;
+				}
+				h4,.count{
+					color: #fff;
+					.transition();
+					&:hover{
+						color: #8a8a8a;
+					}
+				}
+			}
+		}
+	}
+}
+
+.category-grid.slide-item{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.categoriesCarousel{
+	.category-grid{
+		margin-bottom: 0;
+		a{
+			display: block;
+		}
+		img{
+			width:100%;
+		}
+	}
+	&.no-space {
+		.category-grid{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	.owl-controls .owl-pagination{
+		margin-top: 20px;
+		display: none;
+	}
+
+	&.owl-carousel:hover{
+		.owl-prev{
+			left: -105px;
+		}
+		.owl-next{
+			right: -105px;
+		}
+	}
+}
+
+.categories-grid.no-space{
+	margin-left: 0;
+	margin-right: 0;
+	.category-grid{
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width:768px){
+	.category-grid.columns-3{
+		&:nth-child(3n+1){
+			clear: both;	
+		}
+	}
+	.category-grid.columns-2{
+		&:nth-child(2n+1){
+			clear: both;	
+		}
+	}
+	.category-grid.columns-4{
+		&:nth-child(4n+1){
+			clear: both;	
+		}
+	}
+}
+
+@media only screen and(max-width: 480px) {
+	.category-grid .categories-mask{
+		h4{
+			font-size:1.28rem;
+		}
+	}
+	.category-grid.slide-item{
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.categoriesCarousel{
+		width: auto !important;
+		margin-left: -10px;
+		margin-right: -10px;
+		.owl-controls{
+			display: block !important;
+		}
+	}
+	.category-grid.style-with-bg .categories-mask{
+		padding: 0.6em;
+		left: 1.43em;
+		right: 1.43em;
+		h4{
+			font-size: 1rem;
+		}
+	}
+}
+
+/*=====  End of Content for categories grid  ======*/

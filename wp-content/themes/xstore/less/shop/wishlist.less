@@ -1,0 +1,134 @@
+/*=====================================
+=            Wishlist page            =
+=====================================*/
+
+.woocommerce {
+	table.wishlist_table {
+		font-size: 1rem;
+		thead {
+			th {
+				border-bottom-color: @darkColor;
+			}
+		}
+		tfoot{
+			display: none;
+		}
+		.product-name {
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 1.14rem;
+			min-width: 150px;
+		}
+		td.product-add-to-cart  {
+			a {
+				display: inline-block!important;
+				border-radius: 0;
+				border: 1px solid #f2f2f2;
+				color: #000000;
+				text-transform: uppercase;
+				font-size: 0.79rem;
+				font-weight: 700;
+				letter-spacing: 1px;
+				text-align: center;
+				padding: 0 1.64em;
+				height: 3rem;
+				line-height: 3rem;
+				background-color: #f2f2f2;
+				transition: all 0.2s linear;
+				box-sizing: border-box;
+				&:hover{
+					color: #ffffff;
+					background-color: #000000;
+				}
+			}
+		}
+		.product-stock-stauts {
+			text-align: center;
+		}
+
+		.product-remove {
+			a {
+				width: 35px;
+				height:35px;
+				line-height: 35px;
+				padding: 0;
+				font-size: 0;
+				background-color: @lightColor;
+				display: inline-block;
+				&:before {
+					font-family: 'xstore-icons';
+					display: inline-block;
+					font-size: 14px;
+					color: @darkColor;
+					content: "\e90a";
+					position: relative;
+					left: 0.5px;
+				}
+				&:hover {
+					&:before {
+						color: white;
+					}
+				}
+			}
+		}
+		span.wishlist-in-stock{
+			text-transform: uppercase;
+		}
+		td{
+			ins{
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.wishlist-title  {
+	text-transform: uppercase;
+	h2{
+		font-size: 18px;
+	}
+}
+
+.yith-wcwl-share {
+	margin-bottom: 0;
+}
+
+.yith-wcwl-share-title {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.yith-wcwl-share {
+	ul {
+	    vertical-align: middle;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width:1200px){
+	.woocommerce table.wishlist_table .product-name{
+		font-size:0.9rem;
+	}
+	.woocommerce table.wishlist_table tbody td{
+		padding:15px 4px;
+	}
+	.woocommerce table.wishlist_table .product-stock-stauts,
+	.woocommerce table.wishlist_table .product-stock-status{
+		display: none;
+	}
+	.woocommerce table.wishlist_table .product-name{
+		width:auto;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.wishlist_table tr .product-thumbnail{
+		display: none;
+	}
+	.woocommerce table.wishlist_table .product-name{
+		max-width: 100px;
+	}
+}
+
+/*=====  End of Wishlist page  ======*/
